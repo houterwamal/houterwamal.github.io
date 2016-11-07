@@ -1,0 +1,11 @@
+.about {
+  height: 500px;
+  background-color: black; }
+  .about .about-text {
+    color: black;
+    height: 300px;
+    background-color: grey; }
+  .about .about-img {
+    height: 200px;
+    width: 200px;
+    background-image: url("http://fillmurray.com/200/300"); }

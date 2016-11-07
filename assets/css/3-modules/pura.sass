@@ -1,0 +1,96 @@
+.pura
+    height: 100vh
+    background:
+        //image: url(../img/projects/pura/pura-logo.svg)
+        //position: center
+        //repeat: no-repeat
+        color: #7a232e
+    display: flex
+    flex-direction: row
+    align-items: center
+
+    .pura-40
+        width: 40%
+        backround-color: #7a232e
+        height: 100vh
+    
+        .pura-logo
+            background:
+                image: url(../img/projects/pura/pura-logo.svg)
+                position: center
+                repeat: no-repeat
+                background-color: #7a232e
+            height: 300px
+            width: 150px
+            margin-left: 30px
+            
+        .pura-text
+            color: white
+            padding: 50px
+        
+    .pura-60
+        width: 60%
+        height: 100vh
+        background-color: $bg-color
+        display: flex
+        flex-direction: column
+        align-items: center
+        justify-content: center
+        
+        #pura-big-image
+            height: 500px
+            width: 600px
+            background-image: url(../img/projects/pura/pura-verpakking.jpg)
+            background:
+                size: contain
+                position: center
+                repeat: no-repeat
+            
+        .pura-gallery
+            display: flex
+            flex-direction: row
+        
+            .pura-img
+                height: 100px
+                width: 100px
+                margin: 20px 10px
+                box-shadow: 3px 3px 1px rgba(0,0,0,0.2)
+                cursor: pointer
+                
+                &:hover
+                    transform: scale(1.2)
+                
+                &:nth-child(1)
+                    background:
+                        image: url(../img/projects/pura/pura-verpakking.jpg)
+                        position: center
+                        size: cover
+                        repeat: no-repeat
+                
+                &:nth-child(2)
+                    background:
+                        image: url(../img/projects/pura/productadvertentie-1.jpg)
+                        position: center
+                        size: cover
+                        repeat: no-repeat
+                    
+                &:nth-child(3)
+                    background:
+                        image: url(../img/projects/pura/productadvertentie-2.jpg)
+                        position: center
+                        size: cover
+                        repeat: no-repeat
+                    
+                &:nth-child(4)
+                    background:
+                        image: url(../img/projects/pura/productadvertentie-3.jpg)
+                        position: center
+                        size: cover
+                        repeat: no-repeat
+                    
+                &:nth-child(5)
+                    background:
+                        image: url(../img/projects/pura/technische-fiche.jpg)
+                        position: center
+                        size: cover
+                        repeat: no-repeat

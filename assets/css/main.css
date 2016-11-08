@@ -390,9 +390,7 @@ li:hover > ul.drop-menu li {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center; }
+    padding: 100px 0px; }
     .about-skills .about .about-text {
       color: black;
       height: 100%;
@@ -496,7 +494,8 @@ li:hover > ul.drop-menu li {
                 flex-direction: column;
         line-height: 5px; }
       .contact .col-50 .contact-group i {
-        font-size: 24px; }
+        font-size: 24px;
+        color: white; }
       .contact .col-50 .contact-group p {
         padding-left: 10px; }
     .contact .col-50 .title {
@@ -767,7 +766,6 @@ input[type="submit"] {
   height: 100vh; }
   .sherpa-coaching #sherpa-content-wrapper {
     height: 800px;
-    margin-top: -100px;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -829,7 +827,8 @@ input[type="submit"] {
     .sherpa-coaching img {
       display: block;
       position: relative;
-      opacity: 1; }
+      opacity: 1;
+      margin-top: 50px; }
     .sherpa-coaching .sherpa-mockup {
       display: block;
       position: relative;

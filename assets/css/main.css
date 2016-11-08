@@ -671,7 +671,7 @@ input[type="submit"] {
   overflow: hidden;
   height: 100vh; }
   .vegan-world #vegan-content-wrapper {
-    padding: 150px 0px;
+    padding: 0px 0px;
     height: 800px;
     position: absolute;
     width: 100%;

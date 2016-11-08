@@ -585,10 +585,11 @@ input[type="submit"] {
       background-background-color: #7a232e;
       height: 400px;
       width: 300px;
-      margin: 0px auto; }
+      margin: 50px auto 0px; }
     .pura .pura-40 .pura-text {
       color: white;
-      padding: 50px; }
+      margin-top: -60px;
+      padding: 0px 50px; }
   .pura .pura-60 {
     width: 60%;
     height: 800px;
@@ -825,12 +826,13 @@ input[type="submit"] {
     .sherpa-coaching img {
       display: block;
       position: relative;
-      opacity: 1;
-      margin-top: 50px; }
+      opacity: 1; }
     .sherpa-coaching .sherpa-mockup {
       display: block;
       position: relative;
-      opacity: 1; }
+      opacity: 1;
+      margin-top: 80px;
+      margin-bottom: -100px; }
     .sherpa-coaching #sherpa-content-wrapper {
       display: -webkit-box;
       display: -ms-flexbox;

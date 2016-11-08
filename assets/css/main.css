@@ -387,7 +387,8 @@ li:hover > ul.drop-menu li {
     -webkit-box-direction: normal;
         -ms-flex-direction: row;
             flex-direction: row;
-    padding: 100px 0px; }
+    padding: 100px 0px;
+    margin: 0px; }
     .about-skills .about .about-text {
       color: black;
       height: 100%;

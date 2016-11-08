@@ -393,7 +393,7 @@ li:hover > ul.drop-menu li {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
-    padding: 70px 5% 0px 5%; }
+    padding: 70px 40px 0px 40px; }
     .about-skills .about .about-text {
       color: black;
       height: 100%;
@@ -416,8 +416,8 @@ li:hover > ul.drop-menu li {
     width: 100%; }
     .about-skills .skills .col-50 {
       width: 40%;
-      margin-left: 5%;
-      margin-right: 5%;
+      margin-left: 40px;
+      margin-right: 40px;
       display: -webkit-box;
       display: -ms-flexbox;
       display: flex;
@@ -488,6 +488,15 @@ li:hover > ul.drop-menu li {
       display: flex;
       margin: 0px auto;
       width: 50%; }
+      .contact .col-50 .contact-group .location-group {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        line-height: 5px; }
       .contact .col-50 .contact-group i {
         font-size: 24px; }
       .contact .col-50 .contact-group p {
@@ -559,7 +568,6 @@ input[type="submit"] {
                 justify-content: center; } }
 
 .pura {
-  height: 800px;
   background-color: #7a232e;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -665,7 +673,7 @@ input[type="submit"] {
 .vegan-world {
   position: relative;
   overflow: hidden;
-  height: 800px; }
+  height: 100vh; }
   .vegan-world #vegan-content-wrapper {
     padding: 150px 0px;
     height: 800px;
@@ -757,7 +765,7 @@ input[type="submit"] {
   position: relative;
   overflow: hidden;
   background-color: white;
-  height: 800px; }
+  height: 100vh; }
   .sherpa-coaching #sherpa-content-wrapper {
     height: 800px;
     display: -webkit-box;

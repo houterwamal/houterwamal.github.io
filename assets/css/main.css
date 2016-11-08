@@ -753,7 +753,12 @@ input[type="submit"] {
     .vegan-world #vegan-content-wrapper {
       display: block;
       position: static;
-      opacity: 1; }
+      opacity: 1;
+      padding: 50px 0px;
+      margin-bottom: -400px; }
+      .vegan-world #vegan-content-wrapper .vegan-logo {
+        height: 100px;
+        margin: 0px; }
       .vegan-world #vegan-content-wrapper .vegan-text {
         width: 50%;
         margin: 0px auto; } }

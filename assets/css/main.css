@@ -230,7 +230,7 @@ body {
 
 .intro {
   height: 100vh;
-  width: 100vw;
+  width: 100%;
   text-align: center;
   background-image: url(../img/intro-bg.jpeg);
   background-size: cover;
@@ -238,7 +238,7 @@ body {
   background-attachment: fixed; }
   .intro .overlay {
     height: 100vh;
-    wdith: 100vw;
+    wdith: 100%;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -410,8 +410,8 @@ li:hover > ul.drop-menu li {
             flex-direction: row;
     width: 100%; }
     .about-skills .skills .col-50 {
-      width: 40%;
-      margin-right: 40px;
+      width: 48%;
+      margin-right: 2%;
       display: -webkit-box;
       display: -ms-flexbox;
       display: flex;
@@ -583,9 +583,9 @@ input[type="submit"] {
       background-position: center;
       background-repeat: no-repeat;
       background-background-color: #7a232e;
-      height: 300px;
-      width: 150px;
-      margin-left: 30px; }
+      height: 400px;
+      width: 300px;
+      margin: 0px auto; }
     .pura .pura-40 .pura-text {
       color: white;
       padding: 50px; }

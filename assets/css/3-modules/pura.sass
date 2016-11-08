@@ -1,5 +1,5 @@
 .pura
-    height: 100vh
+    height: 800px
     background:
         //image: url(../img/projects/pura/pura-logo.svg)
         //position: center
@@ -12,7 +12,7 @@
     .pura-40
         width: 40%
         backround-color: #7a232e
-        height: 100vh
+        height: 800px
     
         .pura-logo
             background:
@@ -30,8 +30,8 @@
         
     .pura-60
         width: 60%
-        height: 100vh
-        background-color: $bg-color
+        height: 800px
+        background-color: white
         display: flex
         flex-direction: column
         align-items: center
@@ -51,46 +51,57 @@
             flex-direction: row
         
             .pura-img
-                height: 100px
-                width: 100px
+                height: 50px
+                width: 50px
                 margin: 20px 10px
                 box-shadow: 3px 3px 1px rgba(0,0,0,0.2)
                 cursor: pointer
-                
+                background:
+                    position: center
+                    size: cover
+                    repeat: no-repeat
+                    
                 &:hover
                     transform: scale(1.2)
                 
                 &:nth-child(1)
                     background:
                         image: url(../img/projects/pura/pura-verpakking.jpg)
-                        position: center
-                        size: cover
-                        repeat: no-repeat
                 
                 &:nth-child(2)
                     background:
                         image: url(../img/projects/pura/productadvertentie-1.jpg)
-                        position: center
-                        size: cover
-                        repeat: no-repeat
                     
                 &:nth-child(3)
                     background:
                         image: url(../img/projects/pura/productadvertentie-2.jpg)
-                        position: center
-                        size: cover
-                        repeat: no-repeat
                     
                 &:nth-child(4)
                     background:
                         image: url(../img/projects/pura/productadvertentie-3.jpg)
-                        position: center
-                        size: cover
-                        repeat: no-repeat
                     
                 &:nth-child(5)
                     background:
                         image: url(../img/projects/pura/technische-fiche.jpg)
-                        position: center
-                        size: cover
-                        repeat: no-repeat
+                    
+@media (max-width:1000px)
+    .pura
+        flex-direction: column
+        height: 1200px
+        
+        .pura-40
+            width: 100%
+            height: 600px
+            
+            .pura-text
+                width: 50%
+                margin: 0px auto
+                margin-top: -100px
+            
+            .pura-logo
+                margin: 0px auto
+                
+        .pura-60
+            height: 600px
+            width: 100%
+            padding: 30px

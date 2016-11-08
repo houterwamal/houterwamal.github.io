@@ -1,12 +1,11 @@
 .sherpa-coaching
-    height: 100vh
     position: relative
     overflow: hidden
-    padding-bottom: 100px
+    background-color: white
+    height: 800px
     
-        
     #sherpa-content-wrapper
-        height: 100vh
+        height: 800px
         display: flex
         align-items: center
         justify-content: center
@@ -25,16 +24,16 @@
         position: absolute
         width: 100%
         display: none
+        background-color: #2B2B2B
 
     .sherpa-nav
         display: flex
         flex-direction: row
         justify-content: center
-        align-items: center
-        height: 20vh
+        height: 150px
         position: absolute
         width: 100%
-        top: 85vh
+        top: 80%
         
         .circle
             height: 25px
@@ -51,4 +50,26 @@
             
         .active
             background-color: #193540
+
+@media (max-width: 1200px)
+    .sherpa-coaching
+        height: 100%
+        .sherpa-nav
+            display: none
+            
+        img
+            display: block
+            position: relative
+            opacity: 1
         
+        .sherpa-mockup
+            display: block
+            position: relative
+            opacity: 1
+            
+        #sherpa-content-wrapper
+            display: flex
+            flex-direction: column
+            position: relative
+            padding: 30px
+            opacity: 1

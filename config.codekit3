@@ -2256,7 +2256,7 @@
 		"oA": 0,
 		"oAP": "\/assets\/img\/projects\/sherpa-coaching\/mockup-sherpa-coaching.jpg",
 		"oF": 0,
-		"opt": 0
+		"opt": 1
 		},
 	"\/assets\/img\/projects\/the-vegan-world\/ibook-mockup.jpg": {
 		"ft": 16384,
@@ -2264,7 +2264,7 @@
 		"oA": 0,
 		"oAP": "\/assets\/img\/projects\/the-vegan-world\/ibook-mockup.jpg",
 		"oF": 0,
-		"opt": 0
+		"opt": 1
 		},
 	"\/assets\/img\/projects\/the-vegan-world\/logo-vegan.svg": {
 		"ft": 2097152,
@@ -2282,7 +2282,7 @@
 		"oA": 0,
 		"oAP": "\/assets\/img\/projects\/the-vegan-world\/mockup-try-1.jpg",
 		"oF": 0,
-		"opt": 0
+		"opt": 1
 		},
 	"\/assets\/js\/functions.js": {
 		"ft": 64,

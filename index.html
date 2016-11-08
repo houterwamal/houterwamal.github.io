@@ -22,17 +22,20 @@
 </head>
 
 <body>
-    
     <section class="nav" id="nav-bar">
-        <ul>
-            <a href="#about-anchor" id="about"><li>About</li></a>
+        <div class="icons">
+            <i class="fa fa-bars" id="nav-bars" aria-hidden="true"></i>
+            <i class="fa fa-times" id="nav-cross" aria-hidden="true"></i>
+        </div>
+        <ul id="nav-list">
+            <a href="#about-anchor"><li>About</li></a>
             <a href="#skills-anchor"><li>Skills</li></a>
             <a href="#contact-anchor"><li>Contact</li></a>
-            <li><a href="#pura-anchor" id="projects">Projects</a>
+            <li><a href="#pura-anchor">Projects</a>
                 <ul class="drop-menu">
-                    <a href="#pura-anchor" id="pura"><li>Pura</li></a>    
-                    <a href="#vegan-anchor" id="vegan"><li>The Vegan World</li></a>   
-                    <a href="#sherpa-anchor" id="sherpa"><li>Sherpa Coaching</li></a>   
+                    <a href="#pura-anchor"><li>Pura</li></a>    
+                    <a href="#vegan-anchor"><li>The Vegan World</li></a>   
+                    <a href="#sherpa-anchor"><li>Sherpa Coaching</li></a>
                 </ul>
             </li>  
         </ul>
@@ -49,18 +52,18 @@
             </div>
         </div>
     </section>
-    <a name="about-anchor"></a>
+    
     <section class="about-skills">
-        <section class="about">
+        <section class="about" id="about-anchor">
             <div class="about-text">
                 <h1>About me</h1>
                 <p>Lorem ipsum dolor sit amet, in vix inani delenit inimicus. Nam in cetero referrentur instructior, omnes percipitur sed at. Congue deseruisse consequuntur ea vel. Sit noluisse accusamus id. Mea nullam alterum dissentias cu.
-                Velit suscipiantur nec ei, cu quot platonem eam. Homero gloriatur deterruisset ea nam, enim sadipscing te mei, nemore persecuti voluptaria id vix. Et usu mutat mundi placerat, per an minim soleat omittantur, ludus voluptua voluptatibus pro an. Ullum malorum has cu, graeco definitiones necessitatibus no duo, vix eu explicari dissentiunt.</p>
+                Velit suscipiantur nec ei, cu quot platonem eam. Homero gloriatur deterruisset ea nam, enim sadipscing te mei, nemore persecuti voluptaria id vix. Et usu mutat mundi placerat, per an minim soleat omittantur, ludus voluptua voluptatibus pro an. Ullum malorum has cu, graeco definitiones necessitatibus no duo, vix eu explicari dissentiunt.
+                </p>
             </div>
-            <div class="about-img"></div>
+            <div class="about-img"><div id="skills-anchor"></div></div>
         </section>
     
-    <a name="skills-anchor"></a>
     <section class="skills">
             <div class="col-50">
                 <div class="skills-title">
@@ -144,8 +147,7 @@
         </section>
     </section>
     
-    <a name="pura-anchor"></a>
-    <section class="pura">
+    <section class="pura" id="pura-anchor">
         <section class="pura-40">
             <div class="pura-logo"></div>
             <p class="pura-text">Lorem ipsum dolor sit amet, duis tincidunt in vel. Vis assum nulla dolorum id, vitae perfecto pri no, vix ferri magna fabellas ne. Eu harum tempor ius, sea ne magna nusquam nominati. Facilisi disputando referrentur eu vel, has te equidem invidunt tacimates. Atomorum petentium instructior cu usu.</p>
@@ -162,8 +164,7 @@
         </section>
     </section>
     
-    <a name="vegan-anchor"></a>
-    <section class="vegan-world" id="section-vegan">
+    <section class="vegan-world" id="vegan-anchor">
         <div id="vegan-content-wrapper">
             <div class="vegan-logo"></div>
             <div class="vegan-text">
@@ -175,29 +176,28 @@
         <img class="vegan-mockup-try" src="assets/img/projects/the-vegan-world/mockup-try-1.jpg">
 
         <div class="vegan-nav" id="vegan-navigation">
-            <div class="circle vegan-circle" data-img="vegan-mockup"></div>
-            <div class="circle vegan-circle active"></div>
+            <div class="circle vegan-circle active" data-img="vegan-mockup"></div>
+            <div class="circle vegan-circle"></div>
             <div class="circle vegan-circle" data-img="vegan-mockup-try"></div>
         </div>
     </section>
     
-    <a name="sherpa-anchor"></a>
-    <section class="sherpa-coaching" id="section-sherpa">
+    <section class="sherpa-coaching" id="sherpa-anchor">
+        <img class="sherpa-mockup" id="mockup-sherpa-coaching" src="assets/img/projects/sherpa-coaching/mockup-sherpa-coaching.jpg">
         <div id="sherpa-content-wrapper">
             <div class="sherpa-logo"></div>
             <div class="sherpa-text">
                 <p>Lorem ipsum dolor sit amet, veri tamquam per in. Case veniam facilisi id cum. Suas epicuri ex sea, pro bonorum definiebas voluptatibus ei. Sit summo mollis appareat in, idque atomorum at has. Per at case labores.</p>
             </div>
         </div>
-        <img class="sherpa-mockup" id="mockup-sherpa-coaching" src="assets/img/projects/sherpa-coaching/mockup-sherpa-coaching.jpg">
         <div class="sherpa-nav" id="sherpa-navigation">
             <div class="circle sherpa-circle" data-img="mockup-sherpa-coaching"></div>
             <div class="circle sherpa-circle active"></div>
         </div>
     </section>
-    <a name="contact-anchor"></a>
-    <section class="contact">
-        <div class="col-50">
+    
+    <section class="contact" id="contact-anchor">
+        <div class="col-50 contact-info">
             <div class="contact-group">
                 <p>Leurs Kevin 19 maart 1992</p>
             </div>
@@ -215,12 +215,12 @@
             </div>
         </div>
             
-        <div class="col-50">    
+        <div class="col-50 contact-form">    
             <div class="title">
                 <h1>Contact</h1>
             </div>
         
-            <form class="contact-form" action="mailto:someone@example.com" method="post" enctype="text/plain">
+            <form class="contact-form" action="mailto:woutr@hotmail.com" method="post" enctype="text/plain">
                 <div class="form-group">
                     <input type="text" name="name" value="Name"><br>
                     <input type="text" name="mail" value="E-mail"><br>
@@ -230,9 +230,5 @@
             </form>
         </div>
     </section>
-
-  <script>
-    <!-- JS on the page -->
-  </script>
 </body>
 </html>

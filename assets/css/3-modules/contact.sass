@@ -3,6 +3,8 @@
     flex-direction: row
     justif-content: center
     align-items: center
+    position: relative
+    top: -10px
     background:
         color: #2B2B2B
     padding: 50px
@@ -63,3 +65,23 @@ input[type="submit"]
 
     &:hover
         transform: scale(1.05)
+    
+@media (max-width:870px)
+    .contact
+        flex-direction: column
+        .col-50
+            width: 100%
+            
+        .contact-form
+            width: 100%
+            order: 1
+            
+        .contact-info
+            order: 2
+            margin-top: 30px
+            
+            .contact-group
+                width: 100%
+                justify-content: center
+                
+            

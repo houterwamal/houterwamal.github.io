@@ -1,19 +1,37 @@
+body
+    background-color: #2B2B2B
 .nav
     text-align: center
     background: #2B2B2B
-    height: 5vh
     width: 100%
     position: fixed
     display: none
     z-index: 200
     
-    ul
+    .icons
+        position: absolute
+        top: 20px
+        left: 20px
+        i
+            font-size: 36px
+            color: white
+    
+    #nav-bars
+        display: none
+    #nav-cross
+        display: none
+        z-index: 201
+    
+    #nav-list
         list-style: none
         padding: 0
         margin: 0
         display: inline-block
+        position: relative
+        z-index: 1
         
         .drop-menu
+            margin-left: -35px
             li
                 font-size: 10px
                 margin-top: -2px
@@ -21,8 +39,9 @@
         li
             float: left
             width: 150px
-            height: 5vh
-            line-height: 5vh
+            height: 30px
+            padding-top: 10px
+            line-height: 30px
             position: relative
             text-transform: uppercase
             font-size: 12px
@@ -59,3 +78,29 @@ li:hover > ul.drop-menu li
         opacity: 0
     100%
         opacity: 1
+    
+@media (max-width: 600px)
+    .nav
+        height: 70px
+        
+        #nav-list
+            display: none
+            width: 100%
+            margin-top: 60px
+            
+            li
+                width: 100%
+                padding: 10px
+                font-weight: bold
+                    
+        .drop-menu
+            li
+                display: none
+        li:hover > ul.drop-menu li
+            display: none
+            opacity: 0
+        #nav-bars
+            display: block
+            cursor: pointer
+        #nav-cross
+            cursor: pointer

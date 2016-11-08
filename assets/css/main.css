@@ -273,38 +273,57 @@ body {
       font-size: 18px;
       color: white; }
 
+body {
+  background-color: #2B2B2B; }
+
 .nav {
   text-align: center;
   background: #2B2B2B;
-  height: 5vh;
   width: 100%;
   position: fixed;
   display: none;
   z-index: 200; }
-  .nav ul {
+  .nav .icons {
+    position: absolute;
+    top: 20px;
+    left: 20px; }
+    .nav .icons i {
+      font-size: 36px;
+      color: white; }
+  .nav #nav-bars {
+    display: none; }
+  .nav #nav-cross {
+    display: none;
+    z-index: 201; }
+  .nav #nav-list {
     list-style: none;
     padding: 0;
     margin: 0;
-    display: inline-block; }
-    .nav ul .drop-menu li {
-      font-size: 10px;
-      margin-top: -2px; }
-    .nav ul li {
+    display: inline-block;
+    position: relative;
+    z-index: 1; }
+    .nav #nav-list .drop-menu {
+      margin-left: -35px; }
+      .nav #nav-list .drop-menu li {
+        font-size: 10px;
+        margin-top: -2px; }
+    .nav #nav-list li {
       float: left;
       width: 150px;
-      height: 5vh;
-      line-height: 5vh;
+      height: 30px;
+      padding-top: 10px;
+      line-height: 30px;
       position: relative;
       text-transform: uppercase;
       font-size: 12px;
       color: rgba(255, 255, 255, 0.8);
       cursor: pointer;
       background: #2B2B2B; }
-      .nav ul li:hover {
+      .nav #nav-list li:hover {
         color: white; }
-    .nav ul a {
+    .nav #nav-list a {
       color: rgba(255, 255, 255, 0.8); }
-      .nav ul a:hover {
+      .nav #nav-list a:hover {
         color: white; }
 
 ul.drop-menu li {
@@ -334,9 +353,32 @@ li:hover > ul.drop-menu li {
   100% {
     opacity: 1; } }
 
+@media (max-width: 600px) {
+  .nav {
+    height: 70px; }
+    .nav #nav-list {
+      display: none;
+      width: 100%;
+      margin-top: 60px; }
+      .nav #nav-list li {
+        width: 100%;
+        padding: 10px;
+        font-weight: bold; }
+    .nav .drop-menu li {
+      display: none; }
+    .nav li:hover > ul.drop-menu li {
+      display: none;
+      opacity: 0; }
+    .nav #nav-bars {
+      display: block;
+      cursor: pointer; }
+    .nav #nav-cross {
+      cursor: pointer; } }
+
 .about-skills {
   padding: 0px 10% 0px 10%;
-  margin-bottom: 100px; }
+  padding-bottom: 100px;
+  background-color: #F6F6F8; }
   .about-skills .about {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -351,7 +393,7 @@ li:hover > ul.drop-menu li {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
-    margin: 70px 5% 0px 5%; }
+    padding: 70px 5% 0px 5%; }
     .about-skills .about .about-text {
       color: black;
       height: 100%;
@@ -384,7 +426,7 @@ li:hover > ul.drop-menu li {
           -ms-flex-direction: column;
               flex-direction: column; }
       .about-skills .skills .col-50 .skill-group {
-        margin-bottom: 20px; }
+        padding-bottom: 20px; }
         .about-skills .skills .col-50 .skill-group p {
           margin: 0px; }
         .about-skills .skills .col-50 .skill-group .bar-group {
@@ -401,6 +443,24 @@ li:hover > ul.drop-menu li {
             width: 100%;
             background-color: #A8A8A8;
             border-radius: 2px; }
+  @media (max-width: 620px) {
+    .about-skills .about {
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+          -ms-flex-direction: column;
+              flex-direction: column; }
+      .about-skills .about .about-img {
+        margin: 30px; }
+      .about-skills .about .about-text {
+        text-align: center; }
+    .about-skills .skills {
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+          -ms-flex-direction: column;
+              flex-direction: column; }
+      .about-skills .skills .col-50 {
+        width: 100%;
+        padding: 30px 0px; } }
 
 .contact {
   display: -webkit-box;
@@ -414,6 +474,8 @@ li:hover > ul.drop-menu li {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  position: relative;
+  top: -10px;
   background-color: #2B2B2B;
   padding: 50px;
   font-family: 'Sanchez', serif; }
@@ -472,8 +534,32 @@ input[type="submit"] {
     -webkit-transform: scale(1.05);
             transform: scale(1.05); }
 
+@media (max-width: 870px) {
+  .contact {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column; }
+    .contact .col-50 {
+      width: 100%; }
+    .contact .contact-form {
+      width: 100%;
+      -webkit-box-ordinal-group: 2;
+          -ms-flex-order: 1;
+              order: 1; }
+    .contact .contact-info {
+      -webkit-box-ordinal-group: 3;
+          -ms-flex-order: 2;
+              order: 2;
+      margin-top: 30px; }
+      .contact .contact-info .contact-group {
+        width: 100%;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center; } }
+
 .pura {
-  height: 100vh;
+  height: 800px;
   background-color: #7a232e;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -488,7 +574,7 @@ input[type="submit"] {
   .pura .pura-40 {
     width: 40%;
     backround-color: #7a232e;
-    height: 100vh; }
+    height: 800px; }
     .pura .pura-40 .pura-logo {
       background-image: url(../img/projects/pura/pura-logo.svg);
       background-position: center;
@@ -502,8 +588,8 @@ input[type="submit"] {
       padding: 50px; }
   .pura .pura-60 {
     width: 60%;
-    height: 100vh;
-    background-color: #F6F6F8;
+    height: 800px;
+    background-color: white;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -533,58 +619,70 @@ input[type="submit"] {
           -ms-flex-direction: row;
               flex-direction: row; }
       .pura .pura-60 .pura-gallery .pura-img {
-        height: 100px;
-        width: 100px;
+        height: 50px;
+        width: 50px;
         margin: 20px 10px;
         box-shadow: 3px 3px 1px rgba(0, 0, 0, 0.2);
-        cursor: pointer; }
+        cursor: pointer;
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat; }
         .pura .pura-60 .pura-gallery .pura-img:hover {
           -webkit-transform: scale(1.2);
                   transform: scale(1.2); }
         .pura .pura-60 .pura-gallery .pura-img:nth-child(1) {
-          background-image: url(../img/projects/pura/pura-verpakking.jpg);
-          background-position: center;
-          background-size: cover;
-          background-repeat: no-repeat; }
+          background-image: url(../img/projects/pura/pura-verpakking.jpg); }
         .pura .pura-60 .pura-gallery .pura-img:nth-child(2) {
-          background-image: url(../img/projects/pura/productadvertentie-1.jpg);
-          background-position: center;
-          background-size: cover;
-          background-repeat: no-repeat; }
+          background-image: url(../img/projects/pura/productadvertentie-1.jpg); }
         .pura .pura-60 .pura-gallery .pura-img:nth-child(3) {
-          background-image: url(../img/projects/pura/productadvertentie-2.jpg);
-          background-position: center;
-          background-size: cover;
-          background-repeat: no-repeat; }
+          background-image: url(../img/projects/pura/productadvertentie-2.jpg); }
         .pura .pura-60 .pura-gallery .pura-img:nth-child(4) {
-          background-image: url(../img/projects/pura/productadvertentie-3.jpg);
-          background-position: center;
-          background-size: cover;
-          background-repeat: no-repeat; }
+          background-image: url(../img/projects/pura/productadvertentie-3.jpg); }
         .pura .pura-60 .pura-gallery .pura-img:nth-child(5) {
-          background-image: url(../img/projects/pura/technische-fiche.jpg);
-          background-position: center;
-          background-size: cover;
-          background-repeat: no-repeat; }
+          background-image: url(../img/projects/pura/technische-fiche.jpg); }
+
+@media (max-width: 1000px) {
+  .pura {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    height: 1200px; }
+    .pura .pura-40 {
+      width: 100%;
+      height: 600px; }
+      .pura .pura-40 .pura-text {
+        width: 50%;
+        margin: 0px auto;
+        margin-top: -100px; }
+      .pura .pura-40 .pura-logo {
+        margin: 0px auto; }
+    .pura .pura-60 {
+      height: 600px;
+      width: 100%;
+      padding: 30px; } }
 
 .vegan-world {
-  height: 100vh;
   position: relative;
   overflow: hidden;
-  padding-bottom: 100px; }
+  height: 800px; }
   .vegan-world #vegan-content-wrapper {
     padding: 150px 0px;
+    height: 800px;
     position: absolute;
-    width: 100%; }
+    width: 100%;
+    display: none;
+    background-color: #F6F6F8; }
     .vegan-world #vegan-content-wrapper .vegan-logo {
       height: 200px;
       padding: 0px 0px;
       background-image: url(../img/projects/the-vegan-world/logo-vegan.svg);
       background-size: contain;
       background-repeat: no-repeat;
-      background-position: center; }
+      background-position: center;
+      margin-top: 100px; }
     .vegan-world #vegan-content-wrapper .vegan-text {
-      padding-top: 100px;
+      padding-top: 50px;
       margin-left: 33%;
       margin-right: 33%;
       width: 33%; }
@@ -592,7 +690,7 @@ input[type="submit"] {
     width: 100%;
     position: absolute; }
   .vegan-world .vegan-mockup {
-    display: none; }
+    display: show; }
   .vegan-world .vegan-mockup-try {
     display: none; }
   .vegan-world .vegan-nav {
@@ -606,15 +704,11 @@ input[type="submit"] {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
     width: 100%;
     height: 100px;
-    margin-top: -50px;
     z-index: 20;
     position: absolute;
-    top: 85vh; }
+    top: 80%; }
     .vegan-world .vegan-nav .circle {
       height: 25px;
       width: 25px;
@@ -629,13 +723,43 @@ input[type="submit"] {
     .vegan-world .vegan-nav .active {
       background-color: #c3a291; }
 
+@media (max-width: 1100px) {
+  .vegan-world {
+    height: auto; }
+    .vegan-world .vegan-nav {
+      display: none; }
+    .vegan-world img {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      opacity: 1; }
+    .vegan-world .vegan-mockup-try {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      position: static;
+      opacity: 1; }
+    .vegan-world .vegan-mockup {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      opacity: 1;
+      position: static; }
+    .vegan-world #vegan-content-wrapper {
+      display: block;
+      position: static;
+      opacity: 1; }
+      .vegan-world #vegan-content-wrapper .vegan-text {
+        width: 50%;
+        margin: 0px auto; } }
+
 .sherpa-coaching {
-  height: 100vh;
   position: relative;
   overflow: hidden;
-  padding-bottom: 100px; }
+  background-color: white;
+  height: 800px; }
   .sherpa-coaching #sherpa-content-wrapper {
-    height: 100vh;
+    height: 800px;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -657,7 +781,8 @@ input[type="submit"] {
   .sherpa-coaching img {
     position: absolute;
     width: 100%;
-    display: none; }
+    display: none;
+    background-color: #2B2B2B; }
   .sherpa-coaching .sherpa-nav {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -669,13 +794,10 @@ input[type="submit"] {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    height: 20vh;
+    height: 150px;
     position: absolute;
     width: 100%;
-    top: 85vh; }
+    top: 80%; }
     .sherpa-coaching .sherpa-nav .circle {
       height: 25px;
       width: 25px;
@@ -689,3 +811,28 @@ input[type="submit"] {
         background-color: #193540; }
     .sherpa-coaching .sherpa-nav .active {
       background-color: #193540; }
+
+@media (max-width: 1200px) {
+  .sherpa-coaching {
+    height: 100%; }
+    .sherpa-coaching .sherpa-nav {
+      display: none; }
+    .sherpa-coaching img {
+      display: block;
+      position: relative;
+      opacity: 1; }
+    .sherpa-coaching .sherpa-mockup {
+      display: block;
+      position: relative;
+      opacity: 1; }
+    .sherpa-coaching #sherpa-content-wrapper {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+          -ms-flex-direction: column;
+              flex-direction: column;
+      position: relative;
+      padding: 30px;
+      opacity: 1; } }

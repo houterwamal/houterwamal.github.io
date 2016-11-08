@@ -397,7 +397,7 @@ li:hover > ul.drop-menu li {
       height: 200px;
       width: 200px;
       margin-left: 20px;
-      background-image: url("http://fillmurray.com/200/300");
+      background-image: url("https://fillmurray.com/200/300");
       background-size: cover;
       background-position: center; }
   .about-skills .skills {
@@ -672,7 +672,7 @@ input[type="submit"] {
   height: 100vh; }
   .vegan-world #vegan-content-wrapper {
     padding: 0px 0px;
-    height: 800px;
+    height: 100vh;
     position: absolute;
     width: 100%;
     display: none;

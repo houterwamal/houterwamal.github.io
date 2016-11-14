@@ -1,0 +1,154 @@
+.shows
+    height: 800px
+    display: flex
+    flex-direction: row
+    justify-content: center
+    align-items: center
+    background:
+        image: url(../images/shows/shows-bg.jpg)
+        size: cover
+        position: center center
+        repeat: no-repeat
+        attachment: fixed
+        
+    .col-40
+        width: 40%
+    
+    .first-column
+        display: flex
+        flex-direction: column
+        justify-content: center
+        align-items: center
+    
+        h1
+            text-align: center
+            color: white
+            text-transform: uppercase
+
+        button
+            margin-top: 20px
+            padding: 10px
+            width: 200px
+            font-size: 18px
+            text-transform: uppercase
+            color: rgba(black, 0.9)
+            background-color: #ffce00
+            border: none
+            box-shadow: 4px 4px 2px 2px rgba(0,0,0,0.5)
+            transition: transform 400ms ease-in-out forwards
+
+            &:hover
+                color: rgba(black, 0.5)
+                transform: scale(1.1)
+            
+    .col-60
+        width: 60%
+    
+    .second-column
+        margin-right: 50px
+        .gallery
+            height: 600px
+            width: 100%
+            display: flex
+            flex-direction: row
+            flex-wrap: wrap
+            box-shadow: 5px 5px 4px 4px rgba(0,0,0,0.5)
+            
+            .img-box-shadow
+                box-shadow : 2px 2px 2px 2px rgba(0,0,0,0.3)
+            
+            .image
+                width: 33.33%
+                height: 200px
+                
+                &:hover
+                    animation: transform 400ms ease-in-out forwards
+                
+                @keyframes transform
+                    0%
+                        transform: scale(1)
+                        zoom: 0
+                    100%
+                        transform: scale(1.2)
+                        zoom: 1
+                
+                .img-overlay
+                    height: 200px
+                    width: 100%
+                    
+                    p
+                        color: white
+                        text-transform: uppercase
+                        font-size: 18px
+                        text-align: center
+                        line-height: 200px
+                        opacity: 0
+                
+                    &:hover
+                        background-color: rgba(black, 0.4)
+                    
+                    &:hover p
+                        opacity: 1
+                
+            .img-1
+                background:
+                    image: url(../images/gallery/img-1.jpg)
+                    position: center center
+                    repeat: no-repeat
+                    size: 125%
+                
+            .img-2
+                background:
+                    image: url(../images/gallery/img-2.jpg)
+                    size: 125%
+                    position: center center
+                    repeat: no-repeat
+                    
+            .img-3
+                background:
+                    image: url(../images/gallery/img-3.jpeg)
+                    size: 125%
+                    position: center center
+                    repeat: no-repeat
+                    
+            .img-4
+                background:
+                    image: url(../images/gallery/img-4.jpg)
+                    size: 125%
+                    position: center center
+                    repeat: no-repeat
+                    
+            .img-5
+                background:
+                    image: url(../images/gallery/img-5.jpg)
+                    size: 125%
+                    position: center center
+                    repeat: no-repeat
+                    
+            .img-6
+                background:
+                    image: url(../images/gallery/img-6.jpg)
+                    size: 125%
+                    position: center center
+                    repeat: no-repeat
+                    
+            .img-7
+                background:
+                    image: url(../images/gallery/img-7.jpg)
+                    size: 125%
+                    position: center center
+                    repeat: no-repeat
+                    
+            .img-8
+                background:
+                    image: url(../images/gallery/img-8.jpg)
+                    size: 125%
+                    position: center center
+                    repeat: no-repeat
+            
+            .img-9
+                background:
+                    image: url(../images/gallery/img-9.jpg)
+                    size: 125%
+                    position: center center
+                    repeat: no-repeat

@@ -1,0 +1,45 @@
+.gallery-page-intro
+    nav
+        width: 100%
+        height: 70px
+        background-color: rgba(white, 0.5)
+        padding: 20px 0px
+            
+        ul
+            padding: 0px
+            list-style-type: none
+            margin: 0px
+            width: 100%
+            display: flex
+            flex-direction: row
+            align-items: center
+            justify-content: center
+        
+            li
+                display: inline-block
+                line-height: 68px
+                width: 24%
+                margin-left: 1%
+                text-align: center
+                
+                .logo
+                    height: 70px
+                    width: 100% !important
+                    background:
+                        image: url("../images/natgeologo.svg")
+                        repeat: no-repeat
+                a
+                    color: black
+                    font-size: 24px
+                    text-transform: uppercase
+                    width: 70%
+                    display: block
+                    height: 68px
+                    
+                    &:hover
+                        color: #ffce00
+                    
+                    .selected-li
+                        border-bottom: 2px solid black
+                        width: 0px
+                        margin: 0px auto

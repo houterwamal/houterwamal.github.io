@@ -1,0 +1,60 @@
+.gallery-wrapper
+    position: relative
+    background-color: #303030
+    
+    .gallery-lightbox
+        position: fixed
+        height: 100vh
+        margin-top: -110px
+        width: 100%
+        background: rgba(black, 0.7)
+        z-index: 200
+        display: none
+        
+        .big-image
+            height: 80vh
+            margin: 10vh auto
+            width: 80vw
+            box-shadow: 4px 4px 2px 2px rgba(0,0,0,0.5)
+            background:
+                image: url('../images/gallery-page/gallery-images/img-1.jpg')
+                size: cover
+        
+            .close-big-image
+                color: rgba(#ffce00, 0.5)
+                font-size: 36px
+                text-align: right
+                padding: 20px 40px
+                cursor: pointer
+                
+                i
+                    &:hover
+                        color: #ffce00
+                        animation: spin 400ms ease-in-out 0s forwards
+                    
+                    @keyframes spin
+                        0%
+                            transform: rotate(0deg)
+                        100%
+                            transform: rotate(360deg)
+        
+    .gallery-images
+        display: flex
+        flex-direction: row
+        flex-wrap: wrap
+        
+        img
+            width: 25%
+            height: 250px
+            padding: none
+            margin: none
+            cursor: pointer
+            transition: transform 200ms ease-in
+            opacity: 0.8
+            background: black
+            
+            &:hover
+                opacity: 1
+                transform: scale(1.2)
+                box-shadow: 4px 4px 2px 2px rgba(0,0,0,0.5)
+                z-index: 2

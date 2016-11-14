@@ -1,74 +1,63 @@
-.about-skills
-    padding: 0px 10% 0px 10%
-    padding-bottom: 100px
-    background-color: $bg-color
-
-    .about
+.about
+    height: 800px
+    display: flex
+    flex-direction: row
+    justify-content: center
+    align-items: center
+    background:
+        image: url(../images/about/about.jpg)
+        size: cover
+        position: center center
+        repeat: no-repeat
+        attachment: fixed
+        
+    .left-col
+        width: 50%
         display: flex
-        flex-direction: row
-        padding: 100px 0px
-        margin: 0px
-
+        justify-content: center
+        align-items: center
+        
         .about-text
-            color: black
-            height: 100%
             width: 80%
-
-        .about-img
-            height: 200px
-            width: 200px
-            margin-left: 20px
-            background:
-                image: url("https://fillmurray.com/200/300")
-                size: cover
-                position: center
-        
-    .skills
-        display: flex
-        flex-direction: row
-        width: 100%
-        
-        .col-50
-            width: 48%
-            margin-right: 2%
-            display: flex
-            flex-direction: column
-        
-            .skill-group
-                padding-bottom: 20px
-                
-                p
-                    margin: 0px
-                
-                .bar-group
-                    position: relative
-                    
-                    .white-bar
-                        height: 10px
-                        width: 0%
-                        background-color: #2A2A2A
-                        border-radius: 2px
-                        position: absolute
-                        top: 0
-
-                    .gray-bar
-                        height: 10px
-                        width: 100%
-                        background-color: #A8A8A8
-                        border-radius: 2px
-                        
-    @media (max-width:620px)
-        .about
-            flex-direction: column
+            background: rgba(black,0.7)
             
-            .about-img
-                margin: 30px
+            h1
+                color: white
+                font-size: 32px
+                padding: 0px 0px 20px 20px
+                border-bottom: 2px solid rgba(white, 0.5)
                 
-            .about-text
-                    text-align: center
-                
-        .skills
-            flex-direction: column
-            .col-50
-                width: 100%
-                padding: 30px 0px
+        .about-content
+            p
+                color: white
+                padding: 0px 20px 20px
+            
+        
+    .right-col
+        width: 50%
+        display: flex
+        flex-direction: column
+        align-items: center
+    
+        h1
+            text-align: center
+            color: white
+            text-transform: uppercase
+
+        button
+            margin-top: 20px
+            padding: 10px
+            width: 200px
+            font-size: 18px
+            text-transform: uppercase
+            color: rgba(black, 0.9)
+            background-color: #ffce00
+            border: none
+            box-shadow: 4px 4px 2px 2px rgba(0,0,0,0.5)
+            transition: transform 400ms ease-in-out forwards
+
+            &:hover
+                color: rgba(black, 0.5)
+                transform: scale(1.1)
+    
+    

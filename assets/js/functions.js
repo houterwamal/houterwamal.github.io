@@ -1,149 +1,100 @@
-$(document).ready(function () {
+$( document ).ready(function() {
     
-    $(window).scroll(function () {
-        
-        //parallax effect
-        var wScroll = $(this).scrollTop();
-    
-        $("#intro-title").css({
-            'transform' : 'translate (0px, ' + wScroll / 6 + '%)'
-        });
-        
-        //navbar slidup, down
-        var navBar = $('#nav-bar');
-        
-        if (wScroll > 680) {
-            navBar.slideDown(300);
-        }
-        
-        else {
-            navBar.slideUp(300);
-        }
-        
-        //skills grow
-        if (wScroll > 600) {
-            $("#office").animate({width: '100%'}, 700);
-            $("#photoshop").animate({width: '100%'}, 700);
-            $("#indesign").animate({width: '100%'}, 700);
-            $("#illustrator").animate({width: '100%'}, 700);
-            $("#lightroom").animate({width: '80%'}, 700);
-            $("#muse").animate({width: '80%'}, 700);
-            $("#dutch").animate({width: '100%'}, 700);
-            $("#english").animate({width: '100%'}, 700);
-            $("#french").animate({width: '85%'}, 700);
-            $("#german").animate({width: '80%'}, 700);
-        }
-    
-    });
-    
-    //mobile-nav
-    $('#nav-bars').on('click', function(){
-        $(this).fadeOut(function(){
-            $('#nav-cross').fadeIn(); 
-            $('#nav-list').fadeIn();
-        });
-    });
-    
-    $('#nav-cross').on('click', function(){
-        $(this).fadeOut(function(){
-            $('#nav-list').fadeOut();
-            $('#nav-bars').fadeIn(); 
-        });
-    });
-    
-    // Add smooth scrolling to all links
-      $("a").on('click', function(event) {
-
-        // Make sure this.hash has a value before overriding default behavior
-        if (this.hash !== "") {
-          // Prevent default anchor click behavior
-          event.preventDefault();
-
-          // Store hash
-          var hash = this.hash;
-            
-          // Using jQuery's animate() method to add smooth page scroll
-          // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
-          $('html, body').animate({
-            scrollTop: $(hash).offset().top
-          }, 800, function(){
-
-            // Add hash (#) to URL when done scrolling (default click behavior)
-            window.location.hash = hash;
-          });
-        } // End if
-      });
-    
-    //start fadein
-    $("#intro-overlay").hide().fadeIn(2000);
-    
-    //cta scrolldown
-    $('#cta-go-about').click(function () {
-        $("body").animate({ scrollTop: $(window).height()}, 600);
-    });
-    
-    //Pura-gallery
-    var puraImg = $('.pura-img');
-    var puraBigImg = $('#pura-big-image');
-    
-    puraImg.on("click", function () {
-        
-        var imgName = $(this).attr('data-img');
-        
-        puraBigImg.fadeOut("slow", function(){
-          puraBigImg.css("background-image","url(assets/img/projects/pura/"+ imgName +")");  
-        }).fadeIn("slow");
-        
-    });
-    
-    //The vegan world
-    function vegan (){
-        var veganContentWrapper = $("#vegan-content-wrapper");
-        var veganCircle = $(".vegan-circle");
-
-        veganCircle.on("click", function () {
-            $(this).siblings().removeClass("active");
-            $(this).addClass("active");
-            
-            var veganImgId = $(this).attr("data-img");
-            $("."+ veganImgId).siblings().not('#vegan-navigation').fadeOut(600, function(){
-               $("."+ veganImgId).fadeIn(600); 
-            });
-            
-            if(!veganImgId){
-                veganContentWrapper.siblings().not('#vegan-navigation').fadeOut(600, function(){
-                  veganContentWrapper.fadeIn(600);  
-                });
-            }
-            
-        });   
-        
+    //slide intro-box homepage
+    function introSlide(){
+        var introBox = $("#intro-box");
+        introBox.animate({"marginLeft" : "0px"}, 1000);   
     }
     
-    //Sherpa Coaching
-    
-    function sherpa(){
-        var sherpaContentWrapper = $("#sherpa-content-wrapper");
-        var sherpaCircle = $(".sherpa-circle");
-
-        sherpaCircle.on("click", function () {
-            $(this).siblings().removeClass("active");
-            $(this).addClass("active");
-            
-            var sherpaImgId = $(this).attr("data-img");
-            $("#"+ sherpaImgId).siblings().not('#sherpa-navigation').fadeOut(600, function(){
-               $("#"+ sherpaImgId).fadeIn(600); 
-            });
-            
-            if(!sherpaImgId){
-                sherpaContentWrapper.siblings().not('#sherpa-navigation').fadeOut(600, function(){
-                  sherpaContentWrapper.fadeIn(600);  
-                });
-            }
-            
-        }); 
+    //zooms image homepage
+    function showsZoom(){
+        var image = $(".image");
+        
+        image.on("mouseenter", function(){
+            $(this).animate({backgroundSize : "150%"}, 400); 
+            $(this).addClass("img-box-shadow");
+        });
+        
+        image.on("mouseleave", function(){
+            $(this).css({"background-size" : "125%"}); 
+            $(this).removeClass("img-box-shadow");
+        });
     }
     
-    sherpa();
-    vegan();
+    //navigation animations
+    function navHover(){
+        var slider = $("#nav-ul li a");
+        
+        slider.on("mouseenter", function(){
+            $(this).children().not(".logo").addClass("selected-li").animate({
+            width: "50%"}, 400);
+        });
+        
+        slider.on("mouseleave", function(){
+           $(this).children().animate({width: "0%"}, 400).removeClass("selected-li").clearQueue();
+        });
+    }
+    
+    //horizontal gallery slider homepage pictures section
+    function horizontalGallerySlider(){
+        var gallery = $("#horiz-gallery");
+        var leftGallery = $("#left-gallery");
+        var rightGallery = $("#right-gallery");
+        var currentMargin = -800;
+        
+        leftGallery.on("click", function(){
+            currentMargin += 400;
+            gallery.animate({marginLeft: currentMargin + "px"}, 400);
+            
+            if(currentMargin > -400){
+                currentMargin = -400;
+            }
+
+        });
+        
+        rightGallery.on("click", function(){
+            currentMargin -= 400;
+            gallery.animate({marginLeft: currentMargin + "px"}, 400);
+            
+            if(currentMargin < -1200){
+                currentMargin= -1200;
+            }
+        });
+    }
+    
+    //about page title fadein
+    function fadeInTitle(){
+        var title = $("#about-page-title");
+        
+        title.hide().fadeIn(2000);
+    }
+    
+    //gallery lightbox
+    
+    function lightbox(){
+        var lightboxImage = $("#lightbox-big-image");
+        var lightboxWrapper = $("#lightbox");
+        var galleryImage = $("#lightbox-gallery");
+        var lightboxCloseButton = $("#lightbox-close");
+        
+        galleryImage.children().on("click", function(){
+            var imgSrc = $(this).data("img");
+            
+            lightboxImage.css({backgroundImage: "url('assets/images/gallery-page/gallery-images/" + imgSrc + ".jpg')"});
+            lightboxWrapper.hide().fadeIn(400);
+            
+        });
+        
+        lightboxCloseButton.on("click", function(){
+            lightboxWrapper.show().fadeOut(400); 
+        });
+        
+    }
+
+    showsZoom();
+    introSlide();
+    navHover();
+    horizontalGallerySlider();
+    fadeInTitle();
+    lightbox();
 });

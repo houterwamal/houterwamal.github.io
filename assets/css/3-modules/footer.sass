@@ -1,0 +1,53 @@
+.footer
+    height: 100px
+    background: #dfba1f
+    display: flex
+    align-items: center
+    justify-content: center
+    flex: 1
+    text-align: center
+    color: white
+    
+    .copyright
+        flex: 1
+        font-size: 18px
+        
+    .credit
+        flex: 1
+        font-size: 18px
+        
+    .social-media
+        flex: 1
+        font-size: 36px
+        color: white
+        
+        i
+            padding: 10px
+            cursor: pointer
+            
+            &:hover
+                animation: shake 400ms ease-in-out forwards
+
+                @keyframes shake
+                    10%, 90%
+                        transform: translateX(-1px)
+                        transform: translateY(-1px)
+                    20%, 80%
+                        transform: translateX(2px)
+                    50%
+                        transform: translateX(-1px)
+                    40%, 60% 
+                        transform: translateX(3px)
+                        transform: translateY(3px)
+            
+        .facebook:hover
+            color: #3B5998
+            
+        .pinterest:hover
+            color: #C92228
+        
+        .instagram:hover
+            color: #e95950
+            
+        .twitter:hover
+            color: #4099FF

@@ -4,27 +4,15 @@
 	{
 		"name": "Process All Remaining Files and Folders",
 		"stepType": 1,
-		"uuidString": "AEB1933D-7E7C-46FE-A841-AAF1FA5575EC"
+		"uuidString": "6D8499C9-C124-475D-A6C6-DEE044CB400A"
 		}
 	],
 "creatorBuild": "25444",
 "files": {
-	"\/assets\/css\/.sass-cache\/12d9f0a5697884ee5846ce72face4e950fbee971\/_-base-index.sassc": {
+	"\/about.html": {
 		"ft": 8192,
-		"oA": 1,
-		"oAP": "\/assets\/css\/.sass-cache\/12d9f0a5697884ee5846ce72face4e950fbee971\/_-base-index.sassc",
-		"oF": 0
-		},
-	"\/assets\/css\/.sass-cache\/12d9f0a5697884ee5846ce72face4e950fbee971\/_base.sassc": {
-		"ft": 8192,
-		"oA": 1,
-		"oAP": "\/assets\/css\/.sass-cache\/12d9f0a5697884ee5846ce72face4e950fbee971\/_base.sassc",
-		"oF": 0
-		},
-	"\/assets\/css\/.sass-cache\/12d9f0a5697884ee5846ce72face4e950fbee971\/_vars.sassc": {
-		"ft": 8192,
-		"oA": 1,
-		"oAP": "\/assets\/css\/.sass-cache\/12d9f0a5697884ee5846ce72face4e950fbee971\/_vars.sassc",
+		"oA": 2,
+		"oAP": "\/about.html",
 		"oF": 0
 		},
 	"\/assets\/css\/.sass-cache\/26f2eda5200d558b965c747494e670e5ec243517\/_assign.scssc": {
@@ -99,96 +87,6 @@
 		"oAP": "\/assets\/css\/.sass-cache\/26f2eda5200d558b965c747494e670e5ec243517\/_unpack.scssc",
 		"oF": 0
 		},
-	"\/assets\/css\/.sass-cache\/39f7aa23225be26f99a1a17339f8cf419231b673\/_convert-units.scssc": {
-		"ft": 8192,
-		"oA": 1,
-		"oAP": "\/assets\/css\/.sass-cache\/39f7aa23225be26f99a1a17339f8cf419231b673\/_convert-units.scssc",
-		"oF": 0
-		},
-	"\/assets\/css\/.sass-cache\/39f7aa23225be26f99a1a17339f8cf419231b673\/_gradient-positions-parser.scssc": {
-		"ft": 8192,
-		"oA": 1,
-		"oAP": "\/assets\/css\/.sass-cache\/39f7aa23225be26f99a1a17339f8cf419231b673\/_gradient-positions-parser.scssc",
-		"oF": 0
-		},
-	"\/assets\/css\/.sass-cache\/39f7aa23225be26f99a1a17339f8cf419231b673\/_is-num.scssc": {
-		"ft": 8192,
-		"oA": 1,
-		"oAP": "\/assets\/css\/.sass-cache\/39f7aa23225be26f99a1a17339f8cf419231b673\/_is-num.scssc",
-		"oF": 0
-		},
-	"\/assets\/css\/.sass-cache\/39f7aa23225be26f99a1a17339f8cf419231b673\/_linear-angle-parser.scssc": {
-		"ft": 8192,
-		"oA": 1,
-		"oAP": "\/assets\/css\/.sass-cache\/39f7aa23225be26f99a1a17339f8cf419231b673\/_linear-angle-parser.scssc",
-		"oF": 0
-		},
-	"\/assets\/css\/.sass-cache\/39f7aa23225be26f99a1a17339f8cf419231b673\/_linear-gradient-parser.scssc": {
-		"ft": 8192,
-		"oA": 1,
-		"oAP": "\/assets\/css\/.sass-cache\/39f7aa23225be26f99a1a17339f8cf419231b673\/_linear-gradient-parser.scssc",
-		"oF": 0
-		},
-	"\/assets\/css\/.sass-cache\/39f7aa23225be26f99a1a17339f8cf419231b673\/_linear-positions-parser.scssc": {
-		"ft": 8192,
-		"oA": 1,
-		"oAP": "\/assets\/css\/.sass-cache\/39f7aa23225be26f99a1a17339f8cf419231b673\/_linear-positions-parser.scssc",
-		"oF": 0
-		},
-	"\/assets\/css\/.sass-cache\/39f7aa23225be26f99a1a17339f8cf419231b673\/_linear-side-corner-parser.scssc": {
-		"ft": 8192,
-		"oA": 1,
-		"oAP": "\/assets\/css\/.sass-cache\/39f7aa23225be26f99a1a17339f8cf419231b673\/_linear-side-corner-parser.scssc",
-		"oF": 0
-		},
-	"\/assets\/css\/.sass-cache\/39f7aa23225be26f99a1a17339f8cf419231b673\/_radial-arg-parser.scssc": {
-		"ft": 8192,
-		"oA": 1,
-		"oAP": "\/assets\/css\/.sass-cache\/39f7aa23225be26f99a1a17339f8cf419231b673\/_radial-arg-parser.scssc",
-		"oF": 0
-		},
-	"\/assets\/css\/.sass-cache\/39f7aa23225be26f99a1a17339f8cf419231b673\/_radial-gradient-parser.scssc": {
-		"ft": 8192,
-		"oA": 1,
-		"oAP": "\/assets\/css\/.sass-cache\/39f7aa23225be26f99a1a17339f8cf419231b673\/_radial-gradient-parser.scssc",
-		"oF": 0
-		},
-	"\/assets\/css\/.sass-cache\/39f7aa23225be26f99a1a17339f8cf419231b673\/_radial-positions-parser.scssc": {
-		"ft": 8192,
-		"oA": 1,
-		"oAP": "\/assets\/css\/.sass-cache\/39f7aa23225be26f99a1a17339f8cf419231b673\/_radial-positions-parser.scssc",
-		"oF": 0
-		},
-	"\/assets\/css\/.sass-cache\/39f7aa23225be26f99a1a17339f8cf419231b673\/_render-gradients.scssc": {
-		"ft": 8192,
-		"oA": 1,
-		"oAP": "\/assets\/css\/.sass-cache\/39f7aa23225be26f99a1a17339f8cf419231b673\/_render-gradients.scssc",
-		"oF": 0
-		},
-	"\/assets\/css\/.sass-cache\/39f7aa23225be26f99a1a17339f8cf419231b673\/_shape-size-stripper.scssc": {
-		"ft": 8192,
-		"oA": 1,
-		"oAP": "\/assets\/css\/.sass-cache\/39f7aa23225be26f99a1a17339f8cf419231b673\/_shape-size-stripper.scssc",
-		"oF": 0
-		},
-	"\/assets\/css\/.sass-cache\/39f7aa23225be26f99a1a17339f8cf419231b673\/_str-to-num.scssc": {
-		"ft": 8192,
-		"oA": 1,
-		"oAP": "\/assets\/css\/.sass-cache\/39f7aa23225be26f99a1a17339f8cf419231b673\/_str-to-num.scssc",
-		"oF": 0
-		},
-	"\/assets\/css\/.sass-cache\/3b4d126fa670b2c1d3ff2093f45e09a9a8c09054\/_bourbon-deprecated-upcoming.scssc": {
-		"ft": 8192,
-		"oA": 1,
-		"oAP": "\/assets\/css\/.sass-cache\/3b4d126fa670b2c1d3ff2093f45e09a9a8c09054\/_bourbon-deprecated-upcoming.scssc",
-		"oF": 0
-		},
-	"\/assets\/css\/.sass-cache\/3b4d126fa670b2c1d3ff2093f45e09a9a8c09054\/_bourbon.scssc": {
-		"ft": 8192,
-		"oA": 1,
-		"oAP": "\/assets\/css\/.sass-cache\/3b4d126fa670b2c1d3ff2093f45e09a9a8c09054\/_bourbon.scssc",
-		"oF": 0
-		},
 	"\/assets\/css\/.sass-cache\/4916139e71cd220bba0c8d86aa24fed6fe38cfb2\/_-tools-index.sassc": {
 		"ft": 8192,
 		"oA": 1,
@@ -205,78 +103,6 @@
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/assets\/css\/.sass-cache\/4916139e71cd220bba0c8d86aa24fed6fe38cfb2\/_normalize.scssc",
-		"oF": 0
-		},
-	"\/assets\/css\/.sass-cache\/5e71611c9fc796f42352d2a31c0793872a0777fd\/_assign.scssc": {
-		"ft": 8192,
-		"oA": 1,
-		"oAP": "\/assets\/css\/.sass-cache\/5e71611c9fc796f42352d2a31c0793872a0777fd\/_assign.scssc",
-		"oF": 0
-		},
-	"\/assets\/css\/.sass-cache\/5e71611c9fc796f42352d2a31c0793872a0777fd\/_color-lightness.scssc": {
-		"ft": 8192,
-		"oA": 1,
-		"oAP": "\/assets\/css\/.sass-cache\/5e71611c9fc796f42352d2a31c0793872a0777fd\/_color-lightness.scssc",
-		"oF": 0
-		},
-	"\/assets\/css\/.sass-cache\/5e71611c9fc796f42352d2a31c0793872a0777fd\/_flex-grid.scssc": {
-		"ft": 8192,
-		"oA": 1,
-		"oAP": "\/assets\/css\/.sass-cache\/5e71611c9fc796f42352d2a31c0793872a0777fd\/_flex-grid.scssc",
-		"oF": 0
-		},
-	"\/assets\/css\/.sass-cache\/5e71611c9fc796f42352d2a31c0793872a0777fd\/_golden-ratio.scssc": {
-		"ft": 8192,
-		"oA": 1,
-		"oAP": "\/assets\/css\/.sass-cache\/5e71611c9fc796f42352d2a31c0793872a0777fd\/_golden-ratio.scssc",
-		"oF": 0
-		},
-	"\/assets\/css\/.sass-cache\/5e71611c9fc796f42352d2a31c0793872a0777fd\/_grid-width.scssc": {
-		"ft": 8192,
-		"oA": 1,
-		"oAP": "\/assets\/css\/.sass-cache\/5e71611c9fc796f42352d2a31c0793872a0777fd\/_grid-width.scssc",
-		"oF": 0
-		},
-	"\/assets\/css\/.sass-cache\/5e71611c9fc796f42352d2a31c0793872a0777fd\/_modular-scale.scssc": {
-		"ft": 8192,
-		"oA": 1,
-		"oAP": "\/assets\/css\/.sass-cache\/5e71611c9fc796f42352d2a31c0793872a0777fd\/_modular-scale.scssc",
-		"oF": 0
-		},
-	"\/assets\/css\/.sass-cache\/5e71611c9fc796f42352d2a31c0793872a0777fd\/_px-to-em.scssc": {
-		"ft": 8192,
-		"oA": 1,
-		"oAP": "\/assets\/css\/.sass-cache\/5e71611c9fc796f42352d2a31c0793872a0777fd\/_px-to-em.scssc",
-		"oF": 0
-		},
-	"\/assets\/css\/.sass-cache\/5e71611c9fc796f42352d2a31c0793872a0777fd\/_px-to-rem.scssc": {
-		"ft": 8192,
-		"oA": 1,
-		"oAP": "\/assets\/css\/.sass-cache\/5e71611c9fc796f42352d2a31c0793872a0777fd\/_px-to-rem.scssc",
-		"oF": 0
-		},
-	"\/assets\/css\/.sass-cache\/5e71611c9fc796f42352d2a31c0793872a0777fd\/_strip-units.scssc": {
-		"ft": 8192,
-		"oA": 1,
-		"oAP": "\/assets\/css\/.sass-cache\/5e71611c9fc796f42352d2a31c0793872a0777fd\/_strip-units.scssc",
-		"oF": 0
-		},
-	"\/assets\/css\/.sass-cache\/5e71611c9fc796f42352d2a31c0793872a0777fd\/_tint-shade.scssc": {
-		"ft": 8192,
-		"oA": 1,
-		"oAP": "\/assets\/css\/.sass-cache\/5e71611c9fc796f42352d2a31c0793872a0777fd\/_tint-shade.scssc",
-		"oF": 0
-		},
-	"\/assets\/css\/.sass-cache\/5e71611c9fc796f42352d2a31c0793872a0777fd\/_transition-property-name.scssc": {
-		"ft": 8192,
-		"oA": 1,
-		"oAP": "\/assets\/css\/.sass-cache\/5e71611c9fc796f42352d2a31c0793872a0777fd\/_transition-property-name.scssc",
-		"oF": 0
-		},
-	"\/assets\/css\/.sass-cache\/5e71611c9fc796f42352d2a31c0793872a0777fd\/_unpack.scssc": {
-		"ft": 8192,
-		"oA": 1,
-		"oAP": "\/assets\/css\/.sass-cache\/5e71611c9fc796f42352d2a31c0793872a0777fd\/_unpack.scssc",
 		"oF": 0
 		},
 	"\/assets\/css\/.sass-cache\/6f482251e77538848d2cde3d91b9d8ee5d6d7432\/_-base-index.sassc": {
@@ -309,174 +135,6 @@
 		"oAP": "\/assets\/css\/.sass-cache\/76b04eaa04d0082fe16b54530e2aee6e5f2a9ac0\/_bourbon.scssc",
 		"oF": 0
 		},
-	"\/assets\/css\/.sass-cache\/78692d3e6b37ee2559da5c288f1c198cc2879159\/_animation.scssc": {
-		"ft": 8192,
-		"oA": 1,
-		"oAP": "\/assets\/css\/.sass-cache\/78692d3e6b37ee2559da5c288f1c198cc2879159\/_animation.scssc",
-		"oF": 0
-		},
-	"\/assets\/css\/.sass-cache\/78692d3e6b37ee2559da5c288f1c198cc2879159\/_appearance.scssc": {
-		"ft": 8192,
-		"oA": 1,
-		"oAP": "\/assets\/css\/.sass-cache\/78692d3e6b37ee2559da5c288f1c198cc2879159\/_appearance.scssc",
-		"oF": 0
-		},
-	"\/assets\/css\/.sass-cache\/78692d3e6b37ee2559da5c288f1c198cc2879159\/_backface-visibility.scssc": {
-		"ft": 8192,
-		"oA": 1,
-		"oAP": "\/assets\/css\/.sass-cache\/78692d3e6b37ee2559da5c288f1c198cc2879159\/_backface-visibility.scssc",
-		"oF": 0
-		},
-	"\/assets\/css\/.sass-cache\/78692d3e6b37ee2559da5c288f1c198cc2879159\/_background-image.scssc": {
-		"ft": 8192,
-		"oA": 1,
-		"oAP": "\/assets\/css\/.sass-cache\/78692d3e6b37ee2559da5c288f1c198cc2879159\/_background-image.scssc",
-		"oF": 0
-		},
-	"\/assets\/css\/.sass-cache\/78692d3e6b37ee2559da5c288f1c198cc2879159\/_background.scssc": {
-		"ft": 8192,
-		"oA": 1,
-		"oAP": "\/assets\/css\/.sass-cache\/78692d3e6b37ee2559da5c288f1c198cc2879159\/_background.scssc",
-		"oF": 0
-		},
-	"\/assets\/css\/.sass-cache\/78692d3e6b37ee2559da5c288f1c198cc2879159\/_border-image.scssc": {
-		"ft": 8192,
-		"oA": 1,
-		"oAP": "\/assets\/css\/.sass-cache\/78692d3e6b37ee2559da5c288f1c198cc2879159\/_border-image.scssc",
-		"oF": 0
-		},
-	"\/assets\/css\/.sass-cache\/78692d3e6b37ee2559da5c288f1c198cc2879159\/_border-radius.scssc": {
-		"ft": 8192,
-		"oA": 1,
-		"oAP": "\/assets\/css\/.sass-cache\/78692d3e6b37ee2559da5c288f1c198cc2879159\/_border-radius.scssc",
-		"oF": 0
-		},
-	"\/assets\/css\/.sass-cache\/78692d3e6b37ee2559da5c288f1c198cc2879159\/_box-sizing.scssc": {
-		"ft": 8192,
-		"oA": 1,
-		"oAP": "\/assets\/css\/.sass-cache\/78692d3e6b37ee2559da5c288f1c198cc2879159\/_box-sizing.scssc",
-		"oF": 0
-		},
-	"\/assets\/css\/.sass-cache\/78692d3e6b37ee2559da5c288f1c198cc2879159\/_calc.scssc": {
-		"ft": 8192,
-		"oA": 1,
-		"oAP": "\/assets\/css\/.sass-cache\/78692d3e6b37ee2559da5c288f1c198cc2879159\/_calc.scssc",
-		"oF": 0
-		},
-	"\/assets\/css\/.sass-cache\/78692d3e6b37ee2559da5c288f1c198cc2879159\/_columns.scssc": {
-		"ft": 8192,
-		"oA": 1,
-		"oAP": "\/assets\/css\/.sass-cache\/78692d3e6b37ee2559da5c288f1c198cc2879159\/_columns.scssc",
-		"oF": 0
-		},
-	"\/assets\/css\/.sass-cache\/78692d3e6b37ee2559da5c288f1c198cc2879159\/_filter.scssc": {
-		"ft": 8192,
-		"oA": 1,
-		"oAP": "\/assets\/css\/.sass-cache\/78692d3e6b37ee2559da5c288f1c198cc2879159\/_filter.scssc",
-		"oF": 0
-		},
-	"\/assets\/css\/.sass-cache\/78692d3e6b37ee2559da5c288f1c198cc2879159\/_flex-box.scssc": {
-		"ft": 8192,
-		"oA": 1,
-		"oAP": "\/assets\/css\/.sass-cache\/78692d3e6b37ee2559da5c288f1c198cc2879159\/_flex-box.scssc",
-		"oF": 0
-		},
-	"\/assets\/css\/.sass-cache\/78692d3e6b37ee2559da5c288f1c198cc2879159\/_font-face.scssc": {
-		"ft": 8192,
-		"oA": 1,
-		"oAP": "\/assets\/css\/.sass-cache\/78692d3e6b37ee2559da5c288f1c198cc2879159\/_font-face.scssc",
-		"oF": 0
-		},
-	"\/assets\/css\/.sass-cache\/78692d3e6b37ee2559da5c288f1c198cc2879159\/_font-feature-settings.scssc": {
-		"ft": 8192,
-		"oA": 1,
-		"oAP": "\/assets\/css\/.sass-cache\/78692d3e6b37ee2559da5c288f1c198cc2879159\/_font-feature-settings.scssc",
-		"oF": 0
-		},
-	"\/assets\/css\/.sass-cache\/78692d3e6b37ee2559da5c288f1c198cc2879159\/_hidpi-media-query.scssc": {
-		"ft": 8192,
-		"oA": 1,
-		"oAP": "\/assets\/css\/.sass-cache\/78692d3e6b37ee2559da5c288f1c198cc2879159\/_hidpi-media-query.scssc",
-		"oF": 0
-		},
-	"\/assets\/css\/.sass-cache\/78692d3e6b37ee2559da5c288f1c198cc2879159\/_hyphens.scssc": {
-		"ft": 8192,
-		"oA": 1,
-		"oAP": "\/assets\/css\/.sass-cache\/78692d3e6b37ee2559da5c288f1c198cc2879159\/_hyphens.scssc",
-		"oF": 0
-		},
-	"\/assets\/css\/.sass-cache\/78692d3e6b37ee2559da5c288f1c198cc2879159\/_image-rendering.scssc": {
-		"ft": 8192,
-		"oA": 1,
-		"oAP": "\/assets\/css\/.sass-cache\/78692d3e6b37ee2559da5c288f1c198cc2879159\/_image-rendering.scssc",
-		"oF": 0
-		},
-	"\/assets\/css\/.sass-cache\/78692d3e6b37ee2559da5c288f1c198cc2879159\/_keyframes.scssc": {
-		"ft": 8192,
-		"oA": 1,
-		"oAP": "\/assets\/css\/.sass-cache\/78692d3e6b37ee2559da5c288f1c198cc2879159\/_keyframes.scssc",
-		"oF": 0
-		},
-	"\/assets\/css\/.sass-cache\/78692d3e6b37ee2559da5c288f1c198cc2879159\/_linear-gradient.scssc": {
-		"ft": 8192,
-		"oA": 1,
-		"oAP": "\/assets\/css\/.sass-cache\/78692d3e6b37ee2559da5c288f1c198cc2879159\/_linear-gradient.scssc",
-		"oF": 0
-		},
-	"\/assets\/css\/.sass-cache\/78692d3e6b37ee2559da5c288f1c198cc2879159\/_perspective.scssc": {
-		"ft": 8192,
-		"oA": 1,
-		"oAP": "\/assets\/css\/.sass-cache\/78692d3e6b37ee2559da5c288f1c198cc2879159\/_perspective.scssc",
-		"oF": 0
-		},
-	"\/assets\/css\/.sass-cache\/78692d3e6b37ee2559da5c288f1c198cc2879159\/_placeholder.scssc": {
-		"ft": 8192,
-		"oA": 1,
-		"oAP": "\/assets\/css\/.sass-cache\/78692d3e6b37ee2559da5c288f1c198cc2879159\/_placeholder.scssc",
-		"oF": 0
-		},
-	"\/assets\/css\/.sass-cache\/78692d3e6b37ee2559da5c288f1c198cc2879159\/_radial-gradient.scssc": {
-		"ft": 8192,
-		"oA": 1,
-		"oAP": "\/assets\/css\/.sass-cache\/78692d3e6b37ee2559da5c288f1c198cc2879159\/_radial-gradient.scssc",
-		"oF": 0
-		},
-	"\/assets\/css\/.sass-cache\/78692d3e6b37ee2559da5c288f1c198cc2879159\/_transform.scssc": {
-		"ft": 8192,
-		"oA": 1,
-		"oAP": "\/assets\/css\/.sass-cache\/78692d3e6b37ee2559da5c288f1c198cc2879159\/_transform.scssc",
-		"oF": 0
-		},
-	"\/assets\/css\/.sass-cache\/78692d3e6b37ee2559da5c288f1c198cc2879159\/_transition.scssc": {
-		"ft": 8192,
-		"oA": 1,
-		"oAP": "\/assets\/css\/.sass-cache\/78692d3e6b37ee2559da5c288f1c198cc2879159\/_transition.scssc",
-		"oF": 0
-		},
-	"\/assets\/css\/.sass-cache\/78692d3e6b37ee2559da5c288f1c198cc2879159\/_user-select.scssc": {
-		"ft": 8192,
-		"oA": 1,
-		"oAP": "\/assets\/css\/.sass-cache\/78692d3e6b37ee2559da5c288f1c198cc2879159\/_user-select.scssc",
-		"oF": 0
-		},
-	"\/assets\/css\/.sass-cache\/7b94379f101af74b56a5c8529de1a7a2da2c49dc\/_asset-pipeline.scssc": {
-		"ft": 8192,
-		"oA": 1,
-		"oAP": "\/assets\/css\/.sass-cache\/7b94379f101af74b56a5c8529de1a7a2da2c49dc\/_asset-pipeline.scssc",
-		"oF": 0
-		},
-	"\/assets\/css\/.sass-cache\/7b94379f101af74b56a5c8529de1a7a2da2c49dc\/_prefixer.scssc": {
-		"ft": 8192,
-		"oA": 1,
-		"oAP": "\/assets\/css\/.sass-cache\/7b94379f101af74b56a5c8529de1a7a2da2c49dc\/_prefixer.scssc",
-		"oF": 0
-		},
-	"\/assets\/css\/.sass-cache\/7b94379f101af74b56a5c8529de1a7a2da2c49dc\/_px-to-em.scssc": {
-		"ft": 8192,
-		"oA": 1,
-		"oAP": "\/assets\/css\/.sass-cache\/7b94379f101af74b56a5c8529de1a7a2da2c49dc\/_px-to-em.scssc",
-		"oF": 0
-		},
 	"\/assets\/css\/.sass-cache\/7ba24fd9fd80e2a193fde85f00523ebf202a8670\/_-pages-index.sassc": {
 		"ft": 8192,
 		"oA": 1,
@@ -501,24 +159,6 @@
 		"oAP": "\/assets\/css\/.sass-cache\/7c010ad94f9498fdd48b6f8d40772a2dddabb5fc\/header.sassc",
 		"oF": 0
 		},
-	"\/assets\/css\/.sass-cache\/9fdafebde781d8f1d0b5c36a6b6f2d60ba835067\/_-tools-index.sassc": {
-		"ft": 8192,
-		"oA": 1,
-		"oAP": "\/assets\/css\/.sass-cache\/9fdafebde781d8f1d0b5c36a6b6f2d60ba835067\/_-tools-index.sassc",
-		"oF": 0
-		},
-	"\/assets\/css\/.sass-cache\/9fdafebde781d8f1d0b5c36a6b6f2d60ba835067\/_fonts.scssc": {
-		"ft": 8192,
-		"oA": 1,
-		"oAP": "\/assets\/css\/.sass-cache\/9fdafebde781d8f1d0b5c36a6b6f2d60ba835067\/_fonts.scssc",
-		"oF": 0
-		},
-	"\/assets\/css\/.sass-cache\/9fdafebde781d8f1d0b5c36a6b6f2d60ba835067\/_normalize.scssc": {
-		"ft": 8192,
-		"oA": 1,
-		"oAP": "\/assets\/css\/.sass-cache\/9fdafebde781d8f1d0b5c36a6b6f2d60ba835067\/_normalize.scssc",
-		"oF": 0
-		},
 	"\/assets\/css\/.sass-cache\/a05235fbb3a3d2cf20a8b940f04863fab380a8fe\/_asset-pipeline.scssc": {
 		"ft": 8192,
 		"oA": 1,
@@ -535,12 +175,6 @@
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/assets\/css\/.sass-cache\/a05235fbb3a3d2cf20a8b940f04863fab380a8fe\/_px-to-em.scssc",
-		"oF": 0
-		},
-	"\/assets\/css\/.sass-cache\/a2f454baf01b8d0b59d5effa614be926f8380cfa\/main.sassc": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/assets\/css\/.sass-cache\/a2f454baf01b8d0b59d5effa614be926f8380cfa\/main.sassc",
 		"oF": 0
 		},
 	"\/assets\/css\/.sass-cache\/bd76c13f77392a44bf1c0424d1b9a29cc94af77c\/_button.scssc": {
@@ -631,150 +265,6 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/assets\/css\/.sass-cache\/c4e947d4162c0524991d4559ea9687b409643ded\/main.sassc",
-		"oF": 0
-		},
-	"\/assets\/css\/.sass-cache\/c7ab7fe721fe459624b7e547817a7d9b49ebf002\/_button.scssc": {
-		"ft": 8192,
-		"oA": 1,
-		"oAP": "\/assets\/css\/.sass-cache\/c7ab7fe721fe459624b7e547817a7d9b49ebf002\/_button.scssc",
-		"oF": 0
-		},
-	"\/assets\/css\/.sass-cache\/c7ab7fe721fe459624b7e547817a7d9b49ebf002\/_clearfix.scssc": {
-		"ft": 8192,
-		"oA": 1,
-		"oAP": "\/assets\/css\/.sass-cache\/c7ab7fe721fe459624b7e547817a7d9b49ebf002\/_clearfix.scssc",
-		"oF": 0
-		},
-	"\/assets\/css\/.sass-cache\/c7ab7fe721fe459624b7e547817a7d9b49ebf002\/_directional-values.scssc": {
-		"ft": 8192,
-		"oA": 1,
-		"oAP": "\/assets\/css\/.sass-cache\/c7ab7fe721fe459624b7e547817a7d9b49ebf002\/_directional-values.scssc",
-		"oF": 0
-		},
-	"\/assets\/css\/.sass-cache\/c7ab7fe721fe459624b7e547817a7d9b49ebf002\/_ellipsis.scssc": {
-		"ft": 8192,
-		"oA": 1,
-		"oAP": "\/assets\/css\/.sass-cache\/c7ab7fe721fe459624b7e547817a7d9b49ebf002\/_ellipsis.scssc",
-		"oF": 0
-		},
-	"\/assets\/css\/.sass-cache\/c7ab7fe721fe459624b7e547817a7d9b49ebf002\/_font-family.scssc": {
-		"ft": 8192,
-		"oA": 1,
-		"oAP": "\/assets\/css\/.sass-cache\/c7ab7fe721fe459624b7e547817a7d9b49ebf002\/_font-family.scssc",
-		"oF": 0
-		},
-	"\/assets\/css\/.sass-cache\/c7ab7fe721fe459624b7e547817a7d9b49ebf002\/_hide-text.scssc": {
-		"ft": 8192,
-		"oA": 1,
-		"oAP": "\/assets\/css\/.sass-cache\/c7ab7fe721fe459624b7e547817a7d9b49ebf002\/_hide-text.scssc",
-		"oF": 0
-		},
-	"\/assets\/css\/.sass-cache\/c7ab7fe721fe459624b7e547817a7d9b49ebf002\/_html5-input-types.scssc": {
-		"ft": 8192,
-		"oA": 1,
-		"oAP": "\/assets\/css\/.sass-cache\/c7ab7fe721fe459624b7e547817a7d9b49ebf002\/_html5-input-types.scssc",
-		"oF": 0
-		},
-	"\/assets\/css\/.sass-cache\/c7ab7fe721fe459624b7e547817a7d9b49ebf002\/_position.scssc": {
-		"ft": 8192,
-		"oA": 1,
-		"oAP": "\/assets\/css\/.sass-cache\/c7ab7fe721fe459624b7e547817a7d9b49ebf002\/_position.scssc",
-		"oF": 0
-		},
-	"\/assets\/css\/.sass-cache\/c7ab7fe721fe459624b7e547817a7d9b49ebf002\/_prefixer.scssc": {
-		"ft": 8192,
-		"oA": 1,
-		"oAP": "\/assets\/css\/.sass-cache\/c7ab7fe721fe459624b7e547817a7d9b49ebf002\/_prefixer.scssc",
-		"oF": 0
-		},
-	"\/assets\/css\/.sass-cache\/c7ab7fe721fe459624b7e547817a7d9b49ebf002\/_retina-image.scssc": {
-		"ft": 8192,
-		"oA": 1,
-		"oAP": "\/assets\/css\/.sass-cache\/c7ab7fe721fe459624b7e547817a7d9b49ebf002\/_retina-image.scssc",
-		"oF": 0
-		},
-	"\/assets\/css\/.sass-cache\/c7ab7fe721fe459624b7e547817a7d9b49ebf002\/_size.scssc": {
-		"ft": 8192,
-		"oA": 1,
-		"oAP": "\/assets\/css\/.sass-cache\/c7ab7fe721fe459624b7e547817a7d9b49ebf002\/_size.scssc",
-		"oF": 0
-		},
-	"\/assets\/css\/.sass-cache\/c7ab7fe721fe459624b7e547817a7d9b49ebf002\/_timing-functions.scssc": {
-		"ft": 8192,
-		"oA": 1,
-		"oAP": "\/assets\/css\/.sass-cache\/c7ab7fe721fe459624b7e547817a7d9b49ebf002\/_timing-functions.scssc",
-		"oF": 0
-		},
-	"\/assets\/css\/.sass-cache\/c7ab7fe721fe459624b7e547817a7d9b49ebf002\/_triangle.scssc": {
-		"ft": 8192,
-		"oA": 1,
-		"oAP": "\/assets\/css\/.sass-cache\/c7ab7fe721fe459624b7e547817a7d9b49ebf002\/_triangle.scssc",
-		"oF": 0
-		},
-	"\/assets\/css\/.sass-cache\/c7ab7fe721fe459624b7e547817a7d9b49ebf002\/_word-wrap.scssc": {
-		"ft": 8192,
-		"oA": 1,
-		"oAP": "\/assets\/css\/.sass-cache\/c7ab7fe721fe459624b7e547817a7d9b49ebf002\/_word-wrap.scssc",
-		"oF": 0
-		},
-	"\/assets\/css\/.sass-cache\/d157ed27b0ec8ddb29c030294b698fd2f3fa48d9\/_-modules-index.sassc": {
-		"ft": 8192,
-		"oA": 1,
-		"oAP": "\/assets\/css\/.sass-cache\/d157ed27b0ec8ddb29c030294b698fd2f3fa48d9\/_-modules-index.sassc",
-		"oF": 0
-		},
-	"\/assets\/css\/.sass-cache\/d157ed27b0ec8ddb29c030294b698fd2f3fa48d9\/about.sassc": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/assets\/css\/.sass-cache\/d157ed27b0ec8ddb29c030294b698fd2f3fa48d9\/about.sassc",
-		"oF": 0
-		},
-	"\/assets\/css\/.sass-cache\/d157ed27b0ec8ddb29c030294b698fd2f3fa48d9\/contact.sassc": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/assets\/css\/.sass-cache\/d157ed27b0ec8ddb29c030294b698fd2f3fa48d9\/contact.sassc",
-		"oF": 0
-		},
-	"\/assets\/css\/.sass-cache\/d157ed27b0ec8ddb29c030294b698fd2f3fa48d9\/intro.sassc": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/assets\/css\/.sass-cache\/d157ed27b0ec8ddb29c030294b698fd2f3fa48d9\/intro.sassc",
-		"oF": 0
-		},
-	"\/assets\/css\/.sass-cache\/d157ed27b0ec8ddb29c030294b698fd2f3fa48d9\/nav.sassc": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/assets\/css\/.sass-cache\/d157ed27b0ec8ddb29c030294b698fd2f3fa48d9\/nav.sassc",
-		"oF": 0
-		},
-	"\/assets\/css\/.sass-cache\/d157ed27b0ec8ddb29c030294b698fd2f3fa48d9\/projects-nav.sassc": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/assets\/css\/.sass-cache\/d157ed27b0ec8ddb29c030294b698fd2f3fa48d9\/projects-nav.sassc",
-		"oF": 0
-		},
-	"\/assets\/css\/.sass-cache\/d157ed27b0ec8ddb29c030294b698fd2f3fa48d9\/projects.sassc": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/assets\/css\/.sass-cache\/d157ed27b0ec8ddb29c030294b698fd2f3fa48d9\/projects.sassc",
-		"oF": 0
-		},
-	"\/assets\/css\/.sass-cache\/d157ed27b0ec8ddb29c030294b698fd2f3fa48d9\/pura.sassc": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/assets\/css\/.sass-cache\/d157ed27b0ec8ddb29c030294b698fd2f3fa48d9\/pura.sassc",
-		"oF": 0
-		},
-	"\/assets\/css\/.sass-cache\/d157ed27b0ec8ddb29c030294b698fd2f3fa48d9\/sherpa-coaching.sassc": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/assets\/css\/.sass-cache\/d157ed27b0ec8ddb29c030294b698fd2f3fa48d9\/sherpa-coaching.sassc",
-		"oF": 0
-		},
-	"\/assets\/css\/.sass-cache\/d157ed27b0ec8ddb29c030294b698fd2f3fa48d9\/vegan-world.sassc": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/assets\/css\/.sass-cache\/d157ed27b0ec8ddb29c030294b698fd2f3fa48d9\/vegan-world.sassc",
 		"oF": 0
 		},
 	"\/assets\/css\/.sass-cache\/e3302dc85ad89867b877bd16fe7a317464213dea\/_animation.scssc": {
@@ -1003,12 +493,6 @@
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/assets\/css\/.sass-cache\/edd2893d11da43a9648208c2a986da72dad91013\/_str-to-num.scssc",
-		"oF": 0
-		},
-	"\/assets\/css\/.sass-cache\/f847dae56b1a3dae790bcb4ef94617f2fc457389\/_-pages-index.sassc": {
-		"ft": 8192,
-		"oA": 1,
-		"oAP": "\/assets\/css\/.sass-cache\/f847dae56b1a3dae790bcb4ef94617f2fc457389\/_-pages-index.sassc",
 		"oF": 0
 		},
 	"\/assets\/css\/1-tools\/_-tools-index.sass": {
@@ -1986,18 +1470,6 @@
 		"oS": 0,
 		"uL": 1
 		},
-	"\/assets\/css\/3-modules\/.sass-cache\/d157ed27b0ec8ddb29c030294b698fd2f3fa48d9\/about.sassc": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/assets\/css\/3-modules\/.sass-cache\/d157ed27b0ec8ddb29c030294b698fd2f3fa48d9\/about.sassc",
-		"oF": 0
-		},
-	"\/assets\/css\/3-modules\/.sass-cache\/d157ed27b0ec8ddb29c030294b698fd2f3fa48d9\/projects-nav.sassc": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/assets\/css\/3-modules\/.sass-cache\/d157ed27b0ec8ddb29c030294b698fd2f3fa48d9\/projects-nav.sassc",
-		"oF": 0
-		},
 	"\/assets\/css\/3-modules\/_-modules-index.sass": {
 		"aP": 0,
 		"bl": 0,
@@ -2007,6 +1479,19 @@
 		"ma": 0,
 		"oA": 1,
 		"oAP": "\/assets\/css\/css\/_-modules-index.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/assets\/css\/3-modules\/about-page-intro.sass": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 2,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/assets\/css\/css\/about-page-intro.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
@@ -2024,7 +1509,7 @@
 		"oS": 0,
 		"uL": 1
 		},
-	"\/assets\/css\/3-modules\/contact.sass": {
+	"\/assets\/css\/3-modules\/animals.sass": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -2032,7 +1517,85 @@
 		"ft": 2,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/assets\/css\/css\/contact.css",
+		"oAP": "\/assets\/css\/css\/animals.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/assets\/css\/3-modules\/charity.sass": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 2,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/assets\/css\/css\/charity.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/assets\/css\/3-modules\/first-quote.sass": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 2,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/assets\/css\/css\/first-quote.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/assets\/css\/3-modules\/footer.sass": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 2,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/assets\/css\/css\/footer.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/assets\/css\/3-modules\/fourth-quote.sass": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 2,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/assets\/css\/css\/fourth-quote.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/assets\/css\/3-modules\/gallery-page-intro.sass": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 2,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/assets\/css\/css\/gallery-page-intro.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/assets\/css\/3-modules\/gallery-page-lightbox.sass": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 2,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/assets\/css\/css\/gallery-page-lightbox.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
@@ -2050,7 +1613,7 @@
 		"oS": 0,
 		"uL": 1
 		},
-	"\/assets\/css\/3-modules\/nav.sass": {
+	"\/assets\/css\/3-modules\/nature.sass": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -2058,12 +1621,12 @@
 		"ft": 2,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/assets\/css\/css\/nav.css",
+		"oAP": "\/assets\/css\/css\/nature.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
-	"\/assets\/css\/3-modules\/pura.sass": {
+	"\/assets\/css\/3-modules\/newsletter.sass": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -2071,12 +1634,12 @@
 		"ft": 2,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/assets\/css\/css\/pura.css",
+		"oAP": "\/assets\/css\/css\/newsletter.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
-	"\/assets\/css\/3-modules\/sherpa-coaching.sass": {
+	"\/assets\/css\/3-modules\/pictures.sass": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -2084,12 +1647,12 @@
 		"ft": 2,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/assets\/css\/css\/sherpa-coaching.css",
+		"oAP": "\/assets\/css\/css\/pictures.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
-	"\/assets\/css\/3-modules\/vegan-world.sass": {
+	"\/assets\/css\/3-modules\/second-quote.sass": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -2097,7 +1660,59 @@
 		"ft": 2,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/assets\/css\/css\/vegan-world.css",
+		"oAP": "\/assets\/css\/css\/second-quote.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/assets\/css\/3-modules\/shows-page-intro.sass": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 2,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/assets\/css\/css\/shows-page-intro.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/assets\/css\/3-modules\/shows-page-list.sass": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 2,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/assets\/css\/css\/shows-page-list.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/assets\/css\/3-modules\/shows.sass": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 2,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/assets\/css\/css\/shows.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/assets\/css\/3-modules\/third-quote.sass": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 2,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/assets\/css\/css\/third-quote.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
@@ -2115,23 +1730,33 @@
 		"oS": 0,
 		"uL": 1
 		},
-	"\/assets\/css\/css\/about.css": {
+	"\/assets\/css\/css\/about-page-intro.css": {
 		"aP": 0,
 		"bl": 0,
 		"ft": 16,
 		"ma": 0,
-		"oA": 1,
-		"oAP": "\/assets\/css\/css\/about-ck.css",
+		"oA": 2,
+		"oAP": "\/assets\/css\/css\/about-page-intro-min.css",
 		"oF": 0,
 		"oS": 0
 		},
-	"\/assets\/css\/css\/projects-nav.css": {
+	"\/assets\/css\/css\/fourth-quote.css": {
 		"aP": 0,
 		"bl": 0,
 		"ft": 16,
 		"ma": 0,
-		"oA": 1,
-		"oAP": "\/assets\/css\/css\/projects-nav-ck.css",
+		"oA": 2,
+		"oAP": "\/assets\/css\/css\/fourth-quote-min.css",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/assets\/css\/css\/gallery.css": {
+		"aP": 0,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 2,
+		"oAP": "\/assets\/css\/css\/gallery-min.css",
 		"oF": 0,
 		"oS": 0
 		},
@@ -2141,7 +1766,7 @@
 		"ft": 16,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/assets\/css\/main-ck.css",
+		"oAP": "\/assets\/css\/main-min.css",
 		"oF": 0,
 		"oS": 0
 		},
@@ -2158,129 +1783,685 @@
 		"oS": 0,
 		"uL": 1
 		},
-	"\/assets\/img\/intro-bg.jpeg": {
+	"\/assets\/images\/about-page\/about-intro\/about-intro-bg.jpg": {
 		"ft": 16384,
-		"iS": 1547960,
+		"iS": 1561789,
 		"oA": 0,
-		"oAP": "\/assets\/img\/intro-bg.jpeg",
+		"oAP": "\/assets\/images\/about-page\/about-intro\/about-intro-bg.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/assets\/images\/about-page\/animals\/animals-bg.jpg": {
+		"ft": 16384,
+		"iS": 1963189,
+		"oA": 0,
+		"oAP": "\/assets\/images\/about-page\/animals\/animals-bg.jpg",
 		"oF": 0,
 		"opt": 1
 		},
-	"\/assets\/img\/projects\/pura\/billboard.jpg": {
+	"\/assets\/images\/about-page\/charity\/img-1.jpg": {
 		"ft": 16384,
-		"iS": 263042,
+		"iS": 412712,
 		"oA": 0,
-		"oAP": "\/assets\/img\/projects\/pura\/billboard.jpg",
+		"oAP": "\/assets\/images\/about-page\/charity\/img-1.jpg",
 		"oF": 0,
 		"opt": 0
 		},
-	"\/assets\/img\/projects\/pura\/busoutdoor.jpg": {
+	"\/assets\/images\/about-page\/charity\/img-10.jpg": {
 		"ft": 16384,
-		"iS": 697143,
+		"iS": 438347,
 		"oA": 0,
-		"oAP": "\/assets\/img\/projects\/pura\/busoutdoor.jpg",
+		"oAP": "\/assets\/images\/about-page\/charity\/img-10.jpg",
 		"oF": 0,
 		"opt": 0
 		},
-	"\/assets\/img\/projects\/pura\/productadvertentie-1.jpg": {
+	"\/assets\/images\/about-page\/charity\/img-11.jpg": {
 		"ft": 16384,
-		"iS": 299788,
+		"iS": 514751,
 		"oA": 0,
-		"oAP": "\/assets\/img\/projects\/pura\/productadvertentie-1.jpg",
+		"oAP": "\/assets\/images\/about-page\/charity\/img-11.jpg",
 		"oF": 0,
 		"opt": 0
 		},
-	"\/assets\/img\/projects\/pura\/productadvertentie-2.jpg": {
+	"\/assets\/images\/about-page\/charity\/img-12.jpg": {
 		"ft": 16384,
-		"iS": 312951,
+		"iS": 475450,
 		"oA": 0,
-		"oAP": "\/assets\/img\/projects\/pura\/productadvertentie-2.jpg",
+		"oAP": "\/assets\/images\/about-page\/charity\/img-12.jpg",
 		"oF": 0,
 		"opt": 0
 		},
-	"\/assets\/img\/projects\/pura\/productadvertentie-3.jpg": {
+	"\/assets\/images\/about-page\/charity\/img-2.jpg": {
 		"ft": 16384,
-		"iS": 251555,
+		"iS": 729528,
 		"oA": 0,
-		"oAP": "\/assets\/img\/projects\/pura\/productadvertentie-3.jpg",
+		"oAP": "\/assets\/images\/about-page\/charity\/img-2.jpg",
 		"oF": 0,
 		"opt": 0
 		},
-	"\/assets\/img\/projects\/pura\/pura-busstop.jpg": {
+	"\/assets\/images\/about-page\/charity\/img-3.jpg": {
 		"ft": 16384,
-		"iS": 2751750,
+		"iS": 604941,
 		"oA": 0,
-		"oAP": "\/assets\/img\/projects\/pura\/pura-busstop.jpg",
+		"oAP": "\/assets\/images\/about-page\/charity\/img-3.jpg",
 		"oF": 0,
 		"opt": 0
 		},
-	"\/assets\/img\/projects\/pura\/pura-logo.svg": {
+	"\/assets\/images\/about-page\/charity\/img-4.jpg": {
+		"ft": 16384,
+		"iS": 261825,
+		"oA": 0,
+		"oAP": "\/assets\/images\/about-page\/charity\/img-4.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/assets\/images\/about-page\/charity\/img-5.jpg": {
+		"ft": 16384,
+		"iS": 588999,
+		"oA": 0,
+		"oAP": "\/assets\/images\/about-page\/charity\/img-5.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/assets\/images\/about-page\/charity\/img-6.jpg": {
+		"ft": 16384,
+		"iS": 529947,
+		"oA": 0,
+		"oAP": "\/assets\/images\/about-page\/charity\/img-6.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/assets\/images\/about-page\/charity\/img-7.jpg": {
+		"ft": 16384,
+		"iS": 384528,
+		"oA": 0,
+		"oAP": "\/assets\/images\/about-page\/charity\/img-7.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/assets\/images\/about-page\/charity\/img-8.jpg": {
+		"ft": 16384,
+		"iS": 498875,
+		"oA": 0,
+		"oAP": "\/assets\/images\/about-page\/charity\/img-8.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/assets\/images\/about-page\/charity\/img-9.jpg": {
+		"ft": 16384,
+		"iS": 470694,
+		"oA": 0,
+		"oAP": "\/assets\/images\/about-page\/charity\/img-9.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/assets\/images\/about-page\/nature\/nature-img.jpg": {
+		"ft": 16384,
+		"iS": 608858,
+		"oA": 0,
+		"oAP": "\/assets\/images\/about-page\/nature\/nature-img.jpg",
+		"oF": 0,
+		"opt": 1
+		},
+	"\/assets\/images\/about\/about.jpg": {
+		"ft": 16384,
+		"iS": 761232,
+		"oA": 0,
+		"oAP": "\/assets\/images\/about\/about.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/assets\/images\/first-quote\/first-quote-bg.jpg": {
+		"ft": 16384,
+		"iS": 1347608,
+		"oA": 0,
+		"oAP": "\/assets\/images\/first-quote\/first-quote-bg.jpg",
+		"oF": 0,
+		"opt": 1
+		},
+	"\/assets\/images\/fourth-quote\/fourth-quote-bg.jpg": {
+		"ft": 16384,
+		"iS": 670730,
+		"oA": 0,
+		"oAP": "\/assets\/images\/fourth-quote\/fourth-quote-bg.jpg",
+		"oF": 0,
+		"opt": 1
+		},
+	"\/assets\/images\/gallery-page\/gallery-images\/img-1.jpeg": {
+		"ft": 16384,
+		"iS": 5956142,
+		"oA": 0,
+		"oAP": "\/assets\/images\/gallery-page\/gallery-images\/img-1.jpg",
+		"oF": 0,
+		"opt": 1
+		},
+	"\/assets\/images\/gallery-page\/gallery-images\/img-10.jpeg": {
+		"ft": 16384,
+		"iS": 8964048,
+		"oA": 0,
+		"oAP": "\/assets\/images\/gallery-page\/gallery-images\/img-10.jpg",
+		"oF": 0,
+		"opt": 1
+		},
+	"\/assets\/images\/gallery-page\/gallery-images\/img-11.jpeg": {
+		"ft": 16384,
+		"iS": 3965762,
+		"oA": 0,
+		"oAP": "\/assets\/images\/gallery-page\/gallery-images\/img-11.jpg",
+		"oF": 0,
+		"opt": 1
+		},
+	"\/assets\/images\/gallery-page\/gallery-images\/img-12.jpeg": {
+		"ft": 16384,
+		"iS": 702835,
+		"oA": 0,
+		"oAP": "\/assets\/images\/gallery-page\/gallery-images\/img-12.jpg",
+		"oF": 0,
+		"opt": 1
+		},
+	"\/assets\/images\/gallery-page\/gallery-images\/img-13.jpeg": {
+		"ft": 16384,
+		"iS": 4241708,
+		"oA": 0,
+		"oAP": "\/assets\/images\/gallery-page\/gallery-images\/img-13.jpg",
+		"oF": 0,
+		"opt": 1
+		},
+	"\/assets\/images\/gallery-page\/gallery-images\/img-14.jpeg": {
+		"ft": 16384,
+		"iS": 5722271,
+		"oA": 0,
+		"oAP": "\/assets\/images\/gallery-page\/gallery-images\/img-14.jpg",
+		"oF": 0,
+		"opt": 1
+		},
+	"\/assets\/images\/gallery-page\/gallery-images\/img-15.jpeg": {
+		"ft": 16384,
+		"iS": 5157509,
+		"oA": 0,
+		"oAP": "\/assets\/images\/gallery-page\/gallery-images\/img-15.jpg",
+		"oF": 0,
+		"opt": 1
+		},
+	"\/assets\/images\/gallery-page\/gallery-images\/img-16.jpeg": {
+		"ft": 16384,
+		"iS": 11790773,
+		"oA": 0,
+		"oAP": "\/assets\/images\/gallery-page\/gallery-images\/img-16.jpg",
+		"oF": 0,
+		"opt": 1
+		},
+	"\/assets\/images\/gallery-page\/gallery-images\/img-2.jpeg": {
+		"ft": 16384,
+		"iS": 5633510,
+		"oA": 0,
+		"oAP": "\/assets\/images\/gallery-page\/gallery-images\/img-2.jpg",
+		"oF": 0,
+		"opt": 1
+		},
+	"\/assets\/images\/gallery-page\/gallery-images\/img-3.jpeg": {
+		"ft": 16384,
+		"iS": 6909994,
+		"oA": 0,
+		"oAP": "\/assets\/images\/gallery-page\/gallery-images\/img-3.jpg",
+		"oF": 0,
+		"opt": 1
+		},
+	"\/assets\/images\/gallery-page\/gallery-images\/img-4.jpeg": {
+		"ft": 16384,
+		"iS": 5767458,
+		"oA": 0,
+		"oAP": "\/assets\/images\/gallery-page\/gallery-images\/img-4.jpg",
+		"oF": 0,
+		"opt": 1
+		},
+	"\/assets\/images\/gallery-page\/gallery-images\/img-5.jpeg": {
+		"ft": 16384,
+		"iS": 5593275,
+		"oA": 0,
+		"oAP": "\/assets\/images\/gallery-page\/gallery-images\/img-5.jpg",
+		"oF": 0,
+		"opt": 1
+		},
+	"\/assets\/images\/gallery-page\/gallery-images\/img-6.jpeg": {
+		"ft": 16384,
+		"iS": 855476,
+		"oA": 0,
+		"oAP": "\/assets\/images\/gallery-page\/gallery-images\/img-6.jpg",
+		"oF": 0,
+		"opt": 1
+		},
+	"\/assets\/images\/gallery-page\/gallery-images\/img-7.jpeg": {
+		"ft": 16384,
+		"iS": 5231323,
+		"oA": 0,
+		"oAP": "\/assets\/images\/gallery-page\/gallery-images\/img-7.jpg",
+		"oF": 0,
+		"opt": 1
+		},
+	"\/assets\/images\/gallery-page\/gallery-images\/img-8.jpeg": {
+		"ft": 16384,
+		"iS": 7641308,
+		"oA": 0,
+		"oAP": "\/assets\/images\/gallery-page\/gallery-images\/img-8.jpg",
+		"oF": 0,
+		"opt": 1
+		},
+	"\/assets\/images\/gallery-page\/gallery-images\/img-9.jpeg": {
+		"ft": 16384,
+		"iS": 4053002,
+		"oA": 0,
+		"oAP": "\/assets\/images\/gallery-page\/gallery-images\/img-9.jpg",
+		"oF": 0,
+		"opt": 1
+		},
+	"\/assets\/images\/gallery-page\/gallery-thumbs\/img-1.jpg": {
+		"ft": 16384,
+		"iS": 612872,
+		"oA": 0,
+		"oAP": "\/assets\/images\/gallery-page\/gallery-thumbs\/img-1.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/assets\/images\/gallery-page\/gallery-thumbs\/img-10.jpg": {
+		"ft": 16384,
+		"iS": 558421,
+		"oA": 0,
+		"oAP": "\/assets\/images\/gallery-page\/gallery-thumbs\/img-10.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/assets\/images\/gallery-page\/gallery-thumbs\/img-11.jpg": {
+		"ft": 16384,
+		"iS": 612402,
+		"oA": 0,
+		"oAP": "\/assets\/images\/gallery-page\/gallery-thumbs\/img-11.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/assets\/images\/gallery-page\/gallery-thumbs\/img-12.jpg": {
+		"ft": 16384,
+		"iS": 243298,
+		"oA": 0,
+		"oAP": "\/assets\/images\/gallery-page\/gallery-thumbs\/img-12.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/assets\/images\/gallery-page\/gallery-thumbs\/img-13.jpg": {
+		"ft": 16384,
+		"iS": 543612,
+		"oA": 0,
+		"oAP": "\/assets\/images\/gallery-page\/gallery-thumbs\/img-13.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/assets\/images\/gallery-page\/gallery-thumbs\/img-14.jpg": {
+		"ft": 16384,
+		"iS": 385696,
+		"oA": 0,
+		"oAP": "\/assets\/images\/gallery-page\/gallery-thumbs\/img-14.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/assets\/images\/gallery-page\/gallery-thumbs\/img-15.jpg": {
+		"ft": 16384,
+		"iS": 356202,
+		"oA": 0,
+		"oAP": "\/assets\/images\/gallery-page\/gallery-thumbs\/img-15.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/assets\/images\/gallery-page\/gallery-thumbs\/img-16.jpg": {
+		"ft": 16384,
+		"iS": 517370,
+		"oA": 0,
+		"oAP": "\/assets\/images\/gallery-page\/gallery-thumbs\/img-16.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/assets\/images\/gallery-page\/gallery-thumbs\/img-2.jpg": {
+		"ft": 16384,
+		"iS": 568422,
+		"oA": 0,
+		"oAP": "\/assets\/images\/gallery-page\/gallery-thumbs\/img-2.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/assets\/images\/gallery-page\/gallery-thumbs\/img-3.jpg": {
+		"ft": 16384,
+		"iS": 355595,
+		"oA": 0,
+		"oAP": "\/assets\/images\/gallery-page\/gallery-thumbs\/img-3.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/assets\/images\/gallery-page\/gallery-thumbs\/img-4.jpg": {
+		"ft": 16384,
+		"iS": 397717,
+		"oA": 0,
+		"oAP": "\/assets\/images\/gallery-page\/gallery-thumbs\/img-4.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/assets\/images\/gallery-page\/gallery-thumbs\/img-5.jpg": {
+		"ft": 16384,
+		"iS": 575368,
+		"oA": 0,
+		"oAP": "\/assets\/images\/gallery-page\/gallery-thumbs\/img-5.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/assets\/images\/gallery-page\/gallery-thumbs\/img-6.jpg": {
+		"ft": 16384,
+		"iS": 456297,
+		"oA": 0,
+		"oAP": "\/assets\/images\/gallery-page\/gallery-thumbs\/img-6.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/assets\/images\/gallery-page\/gallery-thumbs\/img-7.jpg": {
+		"ft": 16384,
+		"iS": 446312,
+		"oA": 0,
+		"oAP": "\/assets\/images\/gallery-page\/gallery-thumbs\/img-7.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/assets\/images\/gallery-page\/gallery-thumbs\/img-8.jpg": {
+		"ft": 16384,
+		"iS": 521572,
+		"oA": 0,
+		"oAP": "\/assets\/images\/gallery-page\/gallery-thumbs\/img-8.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/assets\/images\/gallery-page\/gallery-thumbs\/img-9.jpg": {
+		"ft": 16384,
+		"iS": 381274,
+		"oA": 0,
+		"oAP": "\/assets\/images\/gallery-page\/gallery-thumbs\/img-9.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/assets\/images\/gallery\/img-1.jpg": {
+		"ft": 16384,
+		"iS": 1057377,
+		"oA": 0,
+		"oAP": "\/assets\/images\/gallery\/img-1.jpg",
+		"oF": 0,
+		"opt": 1
+		},
+	"\/assets\/images\/gallery\/img-2.jpg": {
+		"ft": 16384,
+		"iS": 1216207,
+		"oA": 0,
+		"oAP": "\/assets\/images\/gallery\/img-2.jpg",
+		"oF": 0,
+		"opt": 1
+		},
+	"\/assets\/images\/gallery\/img-3.jpeg": {
+		"ft": 16384,
+		"iS": 4475967,
+		"oA": 0,
+		"oAP": "\/assets\/images\/gallery\/img-3.jpg",
+		"oF": 0,
+		"opt": 1
+		},
+	"\/assets\/images\/gallery\/img-4.jpg": {
+		"ft": 16384,
+		"iS": 1398493,
+		"oA": 0,
+		"oAP": "\/assets\/images\/gallery\/img-4.jpg",
+		"oF": 0,
+		"opt": 1
+		},
+	"\/assets\/images\/gallery\/img-5.jpg": {
+		"ft": 16384,
+		"iS": 854681,
+		"oA": 0,
+		"oAP": "\/assets\/images\/gallery\/img-5.jpg",
+		"oF": 0,
+		"opt": 1
+		},
+	"\/assets\/images\/gallery\/img-6.jpg": {
+		"ft": 16384,
+		"iS": 1053310,
+		"oA": 0,
+		"oAP": "\/assets\/images\/gallery\/img-6.jpg",
+		"oF": 0,
+		"opt": 1
+		},
+	"\/assets\/images\/gallery\/img-7.jpg": {
+		"ft": 16384,
+		"iS": 699980,
+		"oA": 0,
+		"oAP": "\/assets\/images\/gallery\/img-7.jpg",
+		"oF": 0,
+		"opt": 1
+		},
+	"\/assets\/images\/gallery\/img-8.jpg": {
+		"ft": 16384,
+		"iS": 610160,
+		"oA": 0,
+		"oAP": "\/assets\/images\/gallery\/img-8.jpg",
+		"oF": 0,
+		"opt": 1
+		},
+	"\/assets\/images\/gallery\/img-9.jpg": {
+		"ft": 16384,
+		"iS": 1204652,
+		"oA": 0,
+		"oAP": "\/assets\/images\/gallery\/img-9.jpg",
+		"oF": 0,
+		"opt": 1
+		},
+	"\/assets\/images\/horizontal-gallery\/img-1.jpg": {
+		"ft": 16384,
+		"iS": 577924,
+		"oA": 0,
+		"oAP": "\/assets\/images\/horizontal-gallery\/img-1.jpg",
+		"oF": 0,
+		"opt": 1
+		},
+	"\/assets\/images\/horizontal-gallery\/img-2.jpg": {
+		"ft": 16384,
+		"iS": 1189762,
+		"oA": 0,
+		"oAP": "\/assets\/images\/horizontal-gallery\/img-2.jpg",
+		"oF": 0,
+		"opt": 1
+		},
+	"\/assets\/images\/horizontal-gallery\/img-3.jpg": {
+		"ft": 16384,
+		"iS": 448600,
+		"oA": 0,
+		"oAP": "\/assets\/images\/horizontal-gallery\/img-3.jpg",
+		"oF": 0,
+		"opt": 1
+		},
+	"\/assets\/images\/horizontal-gallery\/img-4.jpg": {
+		"ft": 16384,
+		"iS": 669005,
+		"oA": 0,
+		"oAP": "\/assets\/images\/horizontal-gallery\/img-4.jpg",
+		"oF": 0,
+		"opt": 1
+		},
+	"\/assets\/images\/horizontal-gallery\/img-5.jpg": {
+		"ft": 16384,
+		"iS": 77426,
+		"oA": 0,
+		"oAP": "\/assets\/images\/horizontal-gallery\/img-5.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/assets\/images\/horizontal-gallery\/img-6.jpg": {
+		"ft": 16384,
+		"iS": 421946,
+		"oA": 0,
+		"oAP": "\/assets\/images\/horizontal-gallery\/img-6.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/assets\/images\/horizontal-gallery\/img-7.jpg": {
+		"ft": 16384,
+		"iS": 282239,
+		"oA": 0,
+		"oAP": "\/assets\/images\/horizontal-gallery\/img-7.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/assets\/images\/horizontal-gallery\/img-8.jpg": {
+		"ft": 16384,
+		"iS": 586812,
+		"oA": 0,
+		"oAP": "\/assets\/images\/horizontal-gallery\/img-8.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/assets\/images\/intro\/alaska-state-troopers.jpg": {
+		"ft": 16384,
+		"iS": 92928,
+		"oA": 0,
+		"oAP": "\/assets\/images\/intro\/alaska-state-troopers.jpg",
+		"oF": 0,
+		"opt": 1
+		},
+	"\/assets\/images\/intro\/intro-bg.jpg": {
+		"ft": 16384,
+		"iS": 974297,
+		"oA": 0,
+		"oAP": "\/assets\/images\/intro\/intro-bg.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/assets\/images\/natgeologo.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/assets\/img\/projects\/pura\/pura-logo.svg",
+		"oAP": "\/assets\/images\/natgeologo.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/assets\/img\/projects\/pura\/pura-verpakking.jpg": {
+	"\/assets\/images\/pictures\/pictures-bg.jpg": {
 		"ft": 16384,
-		"iS": 2748420,
+		"iS": 828112,
 		"oA": 0,
-		"oAP": "\/assets\/img\/projects\/pura\/pura-verpakking.jpg",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/assets\/img\/projects\/pura\/technische-fiche.jpg": {
-		"ft": 16384,
-		"iS": 220434,
-		"oA": 0,
-		"oAP": "\/assets\/img\/projects\/pura\/technische-fiche.jpg",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/assets\/img\/projects\/sherpa-coaching\/logo-sherpa-coaching.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "\/assets\/img\/projects\/sherpa-coaching\/logo-sherpa-coaching.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 3758088159,
-		"prP": 0
-		},
-	"\/assets\/img\/projects\/sherpa-coaching\/mockup-sherpa-coaching.jpg": {
-		"ft": 16384,
-		"iS": 4312220,
-		"oA": 0,
-		"oAP": "\/assets\/img\/projects\/sherpa-coaching\/mockup-sherpa-coaching.jpg",
+		"oAP": "\/assets\/images\/pictures\/pictures-bg.jpg",
 		"oF": 0,
 		"opt": 1
 		},
-	"\/assets\/img\/projects\/the-vegan-world\/ibook-mockup.jpg": {
+	"\/assets\/images\/second-quote\/second-quote-bg.jpg": {
 		"ft": 16384,
-		"iS": 3110100,
+		"iS": 459670,
 		"oA": 0,
-		"oAP": "\/assets\/img\/projects\/the-vegan-world\/ibook-mockup.jpg",
+		"oAP": "\/assets\/images\/second-quote\/second-quote-bg.jpg",
 		"oF": 0,
 		"opt": 1
 		},
-	"\/assets\/img\/projects\/the-vegan-world\/logo-vegan.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "\/assets\/img\/projects\/the-vegan-world\/logo-vegan.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 3758088159,
-		"prP": 0
-		},
-	"\/assets\/img\/projects\/the-vegan-world\/mockup-try-1.jpg": {
+	"\/assets\/images\/shows-page\/show-images\/americas-national-parks.jpeg": {
 		"ft": 16384,
-		"iS": 3301940,
+		"iS": 5114851,
 		"oA": 0,
-		"oAP": "\/assets\/img\/projects\/the-vegan-world\/mockup-try-1.jpg",
+		"oAP": "\/assets\/images\/shows-page\/show-images\/americas-national-parks.jpg",
+		"oF": 0,
+		"opt": 1
+		},
+	"\/assets\/images\/shows-page\/show-images\/americas-national-parks.jpg": {
+		"ft": 16384,
+		"iS": 1415680,
+		"oA": 0,
+		"oAP": "\/assets\/images\/shows-page\/show-images\/americas-national-parks.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/assets\/images\/shows-page\/show-images\/animal-planet.jpg": {
+		"ft": 16384,
+		"iS": 547804,
+		"oA": 0,
+		"oAP": "\/assets\/images\/shows-page\/show-images\/animal-planet.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/assets\/images\/shows-page\/show-images\/explorer.jpeg": {
+		"ft": 16384,
+		"iS": 1841776,
+		"oA": 0,
+		"oAP": "\/assets\/images\/shows-page\/show-images\/explorer.jpg",
+		"oF": 0,
+		"opt": 1
+		},
+	"\/assets\/images\/shows-page\/show-images\/explorer.jpg": {
+		"ft": 16384,
+		"iS": 564830,
+		"oA": 0,
+		"oAP": "\/assets\/images\/shows-page\/show-images\/explorer.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/assets\/images\/shows-page\/show-images\/going-ape.jpg": {
+		"ft": 16384,
+		"iS": 998664,
+		"oA": 0,
+		"oAP": "\/assets\/images\/shows-page\/show-images\/going-ape.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/assets\/images\/shows-page\/show-images\/life-below-zero.jpg": {
+		"ft": 16384,
+		"iS": 923162,
+		"oA": 0,
+		"oAP": "\/assets\/images\/shows-page\/show-images\/life-below-zero.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/assets\/images\/shows-page\/show-images\/remote-survival.jpg": {
+		"ft": 16384,
+		"iS": 721594,
+		"oA": 0,
+		"oAP": "\/assets\/images\/shows-page\/show-images\/remote-survival.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/assets\/images\/shows-page\/show-images\/secret-life.jpg": {
+		"ft": 16384,
+		"iS": 2755421,
+		"oA": 0,
+		"oAP": "\/assets\/images\/shows-page\/show-images\/secret-life.jpg",
+		"oF": 0,
+		"opt": 1
+		},
+	"\/assets\/images\/shows-page\/show-images\/selling-survival.jpg": {
+		"ft": 16384,
+		"iS": 1493606,
+		"oA": 0,
+		"oAP": "\/assets\/images\/shows-page\/show-images\/selling-survival.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/assets\/images\/shows-page\/show-images\/wild-24.jpg": {
+		"ft": 16384,
+		"iS": 1017326,
+		"oA": 0,
+		"oAP": "\/assets\/images\/shows-page\/show-images\/wild-24.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/assets\/images\/shows\/shows-bg.jpg": {
+		"ft": 16384,
+		"iS": 217535,
+		"oA": 0,
+		"oAP": "\/assets\/images\/shows\/shows-bg.jpg",
+		"oF": 0,
+		"opt": 1
+		},
+	"\/assets\/images\/third-quote\/third-quote-bg.jpg": {
+		"ft": 16384,
+		"iS": 930389,
+		"oA": 0,
+		"oAP": "\/assets\/images\/third-quote\/third-quote-bg.jpg",
 		"oF": 0,
 		"opt": 1
 		},
@@ -2305,16 +2486,28 @@
 	"\/assets\/js\/min\/functions-min.js": {
 		"ft": 64,
 		"mi": 1,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "\/assets\/js\/min\/min\/functions-min-min.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
 		},
+	"\/gallery.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/gallery.html",
+		"oF": 0
+		},
 	"\/index.html": {
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/index.html",
+		"oF": 0
+		},
+	"\/shows.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/shows.html",
 		"oF": 0
 		}
 	},
@@ -2323,10 +2516,10 @@
 "manualImportLinks": {
 	},
 "projectAttributes": {
-	"creationDate": 499808997,
-	"displayValue": "kevin-leurs",
+	"creationDate": 500371520,
+	"displayValue": "national-geographic",
 	"displayValueWasSetByUser": 0,
-	"iconImageName": "meme-girlfriend"
+	"iconImageName": "brackets_brown"
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,
@@ -4002,13 +4195,13 @@
 		},
 	"languageDefaultsCSS": {
 		"autoOutputAction": 2,
-		"autoOutputPathFilenamePattern": "*-ck.css",
+		"autoOutputPathFilenamePattern": "*-min.css",
 		"autoOutputPathRelativePath": "",
 		"autoOutputPathReplace1": "",
 		"autoOutputPathReplace2": "",
 		"autoOutputPathStyle": 0,
 		"createSourceMap": 0,
-		"outputStyle": 0,
+		"outputStyle": 3,
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0
 		},

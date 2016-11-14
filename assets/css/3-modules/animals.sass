@@ -1,6 +1,6 @@
 .animals
-    height: 800px
     display: flex
+    padding: 50px 100px 50px 50px
     background:
         image: url(../images/about-page/animals/animals-bg.jpg)
         size: cover
@@ -23,8 +23,15 @@
         .animals-content
             p
                 color: white
-                padding-right: 100px
                 font-size: 18px
         
     .col-60
         width: 60%
+        
+@media (max-width: 950px)
+    .animals
+        padding: 50px
+        .col-40
+            width: 100%
+        .col-60
+            width: 0%

@@ -79,12 +79,12 @@
             width: 9000px
             float: left
             overflow: hidden
-            margin-left: -800px
+            margin-left: -50vw
             box-shadow: 2px 2px 2px 2px rgba(0,0,0,0.5)
 
             .img
                 height: 200px
-                width: 400px
+                width: 25vw
                 display: block
                 float: left
 
@@ -141,3 +141,26 @@
                     size: cover
                     position: center center
                     repeat: no-repeat
+                    
+@media (max-width: 900px)
+    .pictures
+        height: 1200px
+        .gallery-group
+            height: 1000px
+            .img-slider-overlay
+                display: none
+                
+            .horizontal-gallery
+                height: 800px
+                width: 100%
+                overflow: visible
+                margin-left: 0px
+                float: none
+                display: flex
+                flex-direction: row
+                flex-wrap: wrap
+                box-shadow: none
+                
+                .img
+                    width: 50vw
+                    float: none

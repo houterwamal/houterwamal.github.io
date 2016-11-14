@@ -7,85 +7,124 @@
     width: 60%
         
 .shows-list
-    height: 5400px
     color: white
     background-color: rgba(black, 0.8)
     
     .show-group
         display: flex
-        height: 600px
         overflow: hidden
         
         .col-40
             .show-title
                 h3
                     color: #ffce00
-                    padding: 100px 0px 0px 100px
+                    padding: 0px 0px 0px 100px
                     
             .show-description
                 p
-                    padding: 100px 100px 0px 100px
+                    padding: 100px 100px
 
         .wild-24-image
-            height: 600px
+            min-height: 250px
             background:
                 image: url("../images/shows-page/show-images/wild-24.jpg")
                 size: 130%
-                position: center center
+                position: top center
                 repeat: no-repeat
                 
         .animal-planet-image
-            height: 600px
+            min-height: 250px
             background:
                 image: url("../images/shows-page/show-images/animal-planet.jpg")
                 size: 130%
                 position: center center
+                repeat: no-repeat
                 
         .secret-life-image
-            height: 600px
+            min-height: 250px
             background:
                 image: url("../images/shows-page/show-images/secret-life.jpg")
                 size: 130%
                 position: center center
+                repeat: no-repeat
                 
         .selling-survival-image
-            height: 600px
+            min-height: 250px
             background:
                 image: url("../images/shows-page/show-images/selling-survival.jpg")
                 size: 130%
                 position: center center
+                repeat: no-repeat
                 
         .remote-survival-image
-            height: 600px
+            min-height: 250px
             background:
                 image: url("../images/shows-page/show-images/remote-survival.jpg")
                 size: 130%
                 position: center center
+                repeat: no-repeat
                 
         .going-ape-image
-            height: 600px
+            min-height: 250px
             background:
                 image: url("../images/shows-page/show-images/going-ape.jpg")
                 size: 130%
                 position: center center
+                repeat: no-repeat
                 
         .explorer-image
-            height: 600px
+            min-height: 250px
             background:
                 image: url("../images/shows-page/show-images/explorer.jpg")
                 size: 130%
                 position: center center
+                repeat: no-repeat
                 
         .life-below-zero-image
-            height: 600px
+            min-height: 250px
             background:
                 image: url("../images/shows-page/show-images/life-below-zero.jpg")
                 size: 130%
                 position: center center
+                repeat: no-repeat
                 
         .americas-national-parks-image
-            height: 600px
+            min-height: 250px
             background:
                 image: url("../images/shows-page/show-images/americas-national-parks.jpg")
                 size: 130%
                 position: center center
+                repeat: no-repeat
+                
+
+    
+                
+@media (max-width: 1360px)
+    .shows-list
+        .show-group
+            .americas-national-parks-image
+                background:
+                    size: 180%
+                    
+@media (max-width: 1160px)
+    
+    .col-40
+        width: 100%
+    
+    .col-60
+        width: 100%
+        
+    .shows-list
+        .show-group
+            flex-direction: column
+            
+            .col-40
+                order: 1
+                .show-title
+                    h3
+                        padding: 50px
+
+                .show-description
+                    p
+                        padding: 50px
+                        

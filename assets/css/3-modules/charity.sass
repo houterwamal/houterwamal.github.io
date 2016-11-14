@@ -1,6 +1,5 @@
 .charity
-    height: 870px
-
+    width: 100%
     .charity-title
         h1
             text-transform: uppercase
@@ -8,10 +7,10 @@
             text-align: center
             padding: 100px 0px
             margin: 0px
+            box-sizing: border-box
             
     .charity-collection
         background: grey
-        height: 600
         display: flex
         display-direction: row
         flex-wrap: wrap
@@ -136,3 +135,15 @@
                 size: 130%
                 position: center center
                 repeat: no-repeat
+                
+@media (max-width: 1100px)
+    .charity
+        .charity-collection
+            .charity-image
+                width: 50%
+                
+@media (max-width: 500px)
+    .charity
+        .charity-collection
+            .charity-image
+                width: 100%

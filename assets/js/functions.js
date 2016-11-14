@@ -11,53 +11,60 @@ $( document ).ready(function() {
         var image = $(".image");
         
         image.on("mouseenter", function(){
-            $(this).animate({backgroundSize : "150%"}, 400); 
+            $(this).animate({backgroundSize : "220%"}, 400); 
             $(this).addClass("img-box-shadow");
         });
         
         image.on("mouseleave", function(){
-            $(this).css({"background-size" : "125%"}); 
+            $(this).css({"background-size" : "200%"}); 
             $(this).removeClass("img-box-shadow");
         });
     }
     
-    //navigation animations
-    function navHover(){
-        var slider = $("#nav-ul li a");
+    //mobile-navigation
+    
+    function mobileNav(){
+        var navShow = $("#mobile-bars");
+        var navHide = $("#mobile-cross");
+        var navUl = $('#nav-ul');
         
-        slider.on("mouseenter", function(){
-            $(this).children().not(".logo").addClass("selected-li").animate({
-            width: "50%"}, 400);
+        navShow.on("click", function(){
+            $(this).fadeOut();
+            navHide.fadeIn();
+            navUl.addClass('showing');
         });
         
-        slider.on("mouseleave", function(){
-           $(this).children().animate({width: "0%"}, 400).removeClass("selected-li").clearQueue();
+        navHide.on("click", function(){
+            $(this).fadeOut();
+            navShow.fadeIn();
+            navUl.removeClass('showing');
         });
     }
+    
     
     //horizontal gallery slider homepage pictures section
     function horizontalGallerySlider(){
         var gallery = $("#horiz-gallery");
         var leftGallery = $("#left-gallery");
         var rightGallery = $("#right-gallery");
-        var currentMargin = -800;
+        var currentMargin = -50;
         
         leftGallery.on("click", function(){
-            currentMargin += 400;
-            gallery.animate({marginLeft: currentMargin + "px"}, 400);
+            currentMargin += 25;
+            gallery.animate({marginLeft: currentMargin + "vw"}, 400);
             
-            if(currentMargin > -400){
-                currentMargin = -400;
+            if(currentMargin > -25){
+                currentMargin = -25;
             }
 
         });
         
         rightGallery.on("click", function(){
-            currentMargin -= 400;
-            gallery.animate({marginLeft: currentMargin + "px"}, 400);
+            currentMargin -= 25;
+            gallery.animate({marginLeft: currentMargin + "vw"}, 400);
             
-            if(currentMargin < -1200){
-                currentMargin= -1200;
+            if(currentMargin < -75){
+                currentMargin= -75;
             }
         });
     }
@@ -93,8 +100,10 @@ $( document ).ready(function() {
 
     showsZoom();
     introSlide();
-    navHover();
+    mobileNav();
+    
     horizontalGallerySlider();
     fadeInTitle();
     lightbox();
+    
 });

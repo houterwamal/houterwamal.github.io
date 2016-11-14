@@ -10,6 +10,7 @@
         
     .spotlight-box
         height: 730px
+        width: 100%
         display: flex
         flex-direction: row
         align-items: center
@@ -19,10 +20,11 @@
         .text-box
             margin-top: -100px
             height: 400px
-            width: 600px
+            width: 45%
             background-color: rgba(black, 0.7)
             
             .spotlight-title
+                height: 100px
                 h1
                     color: white
                     font-size: 32px
@@ -32,6 +34,7 @@
                     border-bottom: 2px solid rgba(white, 0.4)
                     
             .spotlight-content
+                height: 200px
                 p
                     color: white
                     padding: 20px
@@ -40,6 +43,7 @@
                 border-top: 2px solid rgba(white, 0.4)
                 display: flex
                 align-items: center
+                height: 100px
             
                 p
                     font-size: 24px
@@ -52,50 +56,72 @@
         .spotlight-img
             margin-top: -100px
             height: 400px
-            width: 600px
+            width: 45%
             background:
                 image: url("../images/intro/alaska-state-troopers.jpg")
                 size: cover
                 repeat: no-repeat
                 position: center
+    
+    .mobile-nav-buttons
+        color: white
+        font-size: 64px
+        position: relative
+        display: none
+        
+        i
+            position: absolute
+            padding: 20px
+            cursor: pointer
             
+            &:hover
+                color: #ffce00
+            
+        #mobile-bars
+            display: none
+            
+        #mobile-cross
+            display: none
+    
+    .logo-container
+        height: 200px
+        width: 200px
+        position: absolute
+        margin: 20px
+        
+        a
+            .logo
+                height: 200px
+                width: 100%
+                background:
+                    image: url("../images/natgeologo.svg")
+                    repeat: no-repeat
     nav
         width: 100%
-        height: 70px
         background-color: rgba(0,0,0,0.5)
-        padding: 20px 0px
             
         ul
             padding: 0px
             list-style-type: none
             margin: 0px
-            width: 100%
-            display: flex
-            flex-direction: row
-            align-items: center
-            justify-content: center
-            
+            overflow: hidden
+            text-align: center
             
             li
                 display: inline-block
-                line-height: 68px
-                width: 24%
-                margin-left: 1%
+                padding: 0px
+                width: 20%
+                line-height: 100px
                 text-align: center
                 
-                .logo
-                    height: 70px
-                    width: 100% !important
-                    background:
-                        image: url("../images/natgeologo.svg")
-                        repeat: no-repeat
+                &:first-child
+                    margin-left: 25%
+                
                 a
                     color: white
                     font-size: 24px
                     text-transform: uppercase
-                    width: 70%
-                    display: block
-                    height: 68px
+                    text-align: center
                     
                     &:hover
                         color: #ffce00
@@ -106,4 +132,71 @@
                         margin: 0px auto
                         
 .active
-    border-bottom: 2px solid #ffce00
+    border-bottom: 4px solid #ffce00
+    
+@media (max-width: 930px)
+    .intro
+        height: 1100px
+        .spotlight-box
+            flex-direction: column
+            height: 1100px
+            margin-top: 0px
+            
+            .text-box
+                width: 80%
+        
+            .spotlight-img
+                margin-top: 0px
+                width: 80%
+
+@media (max-width: 700px)
+    .intro
+        height: 800px
+        width: auto
+        
+        .mobile-nav-buttons
+            background: rgba(black, 0.7)
+            width: 100%
+            height: 100px
+            display: block
+            
+            #mobile-bars
+                display: block
+        
+        .logo-container
+            visibility: hidden
+        
+        nav
+            .showing
+                max-height: 600px
+                
+            ul
+                max-height: 0px
+                transition: max-height 0.4s
+                
+                li
+                    box-sizing: border-box
+                    background-color: rgba(black, 0.4)
+                    width: 100%
+                    line-height: 50px
+                    border-bottom: 2px solid rgba(white, 0.5)
+                    &:first-child
+                        margin: 0px
+        
+        .spotlight-box
+            height: 800px
+            .text-box
+                width: auto
+                height: 500px
+                
+                .spotlight-title
+                    h1
+                        font-size: 20px
+                
+                .spotlight-content
+                    height: 300px
+                    
+                .spotlight-footer
+                
+            .spotlight-img
+                display: none
